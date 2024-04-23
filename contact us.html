@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Networking in Heels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta property="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-default.css">
+    <script src="https://kit.fontawesome.com/54665b0e47.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/networking in heels logo 2.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Events page.html">Events</a></li>
+            <li><a href="Partners.html">Partners</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </section>
+
+    <section class="Contact-us">
+      <div class="cont-content">
+        <h3>GET IN TOUCH</h3>
+      </div>
+    </section>
+    <div class = contact-header>
+      <h1>TALK TO US</h1>
+    </div>
+   <div class = "contact-box">
+      <div class="contact-left">
+        <h3>Sent your request</h3>
+        <form>
+         <div class="input-row">
+            <div class="input-group">
+              <label>Name</label>
+              <input type="text" placeholder="">
+            </div>
+              <div class="input-group">
+                <label>Phone</label>
+                <input type="text" placeholder="">
+            </div>
+          </div>
+          <div class="input-row">
+            <div class="input-group">
+              <label>E-mail</label>
+              <input type="email" placeholder="">
+            </div>
+            <div class="input-group">
+              <label>Subject</label>
+              <input type="text" placeholder="">
+            </div>
+          </div>
+
+          <label>Message</label>
+          <textarea rows="5" placeholder="Your Message"></textarea>
+          <button type="submit">SEND</button>
+        </form>
+      </div >
+      <div class="contact-right">
+        <h3>Reach</h3>
+        <table>
+          <tr>
+            <td>Email</td>
+            <td>info@networkinginheels.co.ke</td>
+          </tr>
+          <tr>
+            <td>Phone</td>
+            <td>+254721302640</td>
+          </tr>
+        </table>
+      </div>
+
+    </div> 
+    <footer>
+      <div class="row-2">
+        <div class="col-3">
+          <img class="logo-2" src="images/networking in heels logo 2.png">
+          <p>Empowering and connecting women for personal and professional growth through meaningful connections</p>
+        </div>
+        <div class="col-4">
+          <h3>Links <div class="underline"><span></span></div></h3>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Partners</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-5">
+          <h3>Contact Us<div class="underline"><span></span></div></h3>
+          <div class="contact-info">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <h4>+254721302640</h4>
+          </div>
+          <div class="contact-info">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <p class="email-id">info@networkinginheels.co.ke</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <h3>Socials<div class="underline"><span></span></div></h3>
+          <div class="social">
+            <div class="icon-circle"><i class="fa-brands fa-facebook-f icon"></i></div>
+            <div class="icon-circle"><i class="fa-brands fa-linkedin icon"></i></div>
+            <div class="icon-circle"><i class="fa-brands fa-instagram icon"></i></div>
+            <div class="icon-circle"><i class="fa-brands fa-x-twitter icon"></i></div>
+            <div class="icon-circle"><i class="fa-brands fa-tiktok icon"></i></div>
+        </div>        
+        
+        </div>
+      </div>
+    </footer>
+
+    
+
+
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js" integrity="sha512-v3fZyWIk7kh9yGNQZf1SnSjIxjAKsYbg6UQ+B+QxAZqJQLrN3jMjrdNwcxV6tis6S0s1xyVDZrDz9UoRLfRpWw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>   
+
+    <script src="main.js"></script>
+
+    <!--------javascript for toggle Menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0"
+
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px"
+        
+      }
+    </script>
+    <script>
+      let scrollContainer = document.querySelector(".gallery");
+      let leftBtn = document.getElementById("leftbtn");
+      let rightBtn = document.getElementById("rightbtn");
+
+      scrollContainer.addEventListener("wheel", (evt) => {
+        evt.preventDefault();
+        scrollContainer.scrollLeft += evt.deltaY;
+        scrollContainer.style.scrollBehavior = "auto"
+      });
+
+      rightBtn.addEventListener("click", ()=>{
+        scrollContainer.style.scrollBehavior = "smooth"
+        scrollContainer.scrollLeft += 900;
+      });
+      leftBtn.addEventListener("click", ()=>{
+        scrollContainer.style.scrollBehavior = "smooth"
+        scrollContainer.scrollLeft -= 900;
+      });
+    </script>
+
+   
+  </body>
+</html>
