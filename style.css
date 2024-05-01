@@ -769,7 +769,7 @@ footer ul li a{
     height: auto; /* Allow height to adjust proportionally */
     position: static; /* Remove positioning */
     margin: 0 auto; /* Center the image */
-    margin-top: -270px;
+    margin-top: -340px;
     margin-left: 80px;
     display: block; /* Ensure the image is displayed as a block element */
     float: none; /* Remove float */
@@ -946,6 +946,12 @@ footer ul li a{
   .row-2 {
     max-width: 100%; /* Adjust the max-width for smaller screens */
     padding: 0 15px; /* Add padding to the sides for spacing */
+  }
+  .col-3{
+    max-width: 100%;
+  }
+  .col-4 {
+    width: 100%;
   }
   .header{
     overflow-x: hidden;
@@ -1334,10 +1340,12 @@ background: linear-gradient(
       ),
       url(images/Rectangle\ 12.png) center center fixed;
     background-size: cover; /* Ensure background image covers the container */
+    overflow-x: hidden;
   }
   .sub-home .content {
     max-width: 100%; /* Adjust the max-width to fit the smaller screens */
     padding: 0 20px; /* Add padding to maintain readability */
+    overflow-x: hidden;
   }
 
   .sub-home .content h3 {
@@ -1354,16 +1362,18 @@ background: linear-gradient(
   .about-us .image4 {
     width: 90%; /* Make the image responsive to the container width */
     height: auto; /* Maintain aspect ratio */
-    top: -50px; /* Remove top positioning */
+    top: -35px; /* Remove top positioning */
     left: 40px; /* Remove left positioning */
     float: none; /* Remove floating */
     margin-bottom: 20px; /* Add margin to separate from other elements */
     margin-top: -500px;
+    overflow-x: hidden;
+
   }
 
   .about-us .peach3 {
     width: 80%; /* Make the background element responsive to the container width */
-    height: 460px; /* Maintain aspect ratio */
+    height: 500px; /* Maintain aspect ratio */
     float: none; /* Remove floating */
     margin-bottom: 20px; /* Add margin to separate from other elements */
     left: 30px;
@@ -1447,6 +1457,8 @@ background: linear-gradient(
     background: rgba(167, 111, 182, 1);
     padding: 20px;
     margin-top: 50px;
+    overflow-x: hidden;
+    left: 20px;
   }
   .volunteer-txt {
     text-align: center;
@@ -1544,8 +1556,49 @@ background: linear-gradient(
   .our h2{
     font-size: 32px; /* Reduce font size */
     margin-top: 20px; /* Adjust top margin */
-    margin-left: -20px; /* Remove left margin */
+    margin-left: 0; /* Remove left margin */
   }
+  .header{
+    overflow-x: hidden;
+  }
+  
+  .home .content h3{
+    font-size: 20px;
+  }
+  .home .content p{
+    font-size: 18px;
+  }
+  
+  .nav-links ul li{
+    display: block;
+    overflow: hidden;
+  }
+  .nav-links{
+    position: fixed;
+    background: rgba(151, 51, 238);
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 0;
+    transition: 0.5s;
+    overflow-x: hidden;
+
+  }
+
+  nav .fa{
+    display: block;
+    color: black;
+    margin: 18px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  .nav-links ul{
+    padding: 10px;
+  }
+  
 }
 /*-------events page----------*/
 .events-home{
@@ -1607,6 +1660,7 @@ background: linear-gradient(
 }
 
 .main_container {
+  
   padding: 30px 30px 60px 30px;
   margin-right: 800px;
   margin-top: 100px;
@@ -1844,6 +1898,7 @@ background: linear-gradient(
 
   .events-content h3 {
     font-size: 36px; /* Decrease the font size for headings */
+    margin-top: 150px;
   }
 
   .events-content p {
@@ -1877,10 +1932,10 @@ background: linear-gradient(
 
   }
   .main_container {
-  width: 100%;
+  width: 120%;
   padding: 30px;
   margin: 100px auto 0; /* Centering the container and removing unnecessary margins */
-  margin-left: 20px;
+  margin-left: 5px;
   display: flex;
   flex-direction: column; /* Ensure stacked layout on smaller screens */
   align-items: center; /* Center contents horizontally */
@@ -1920,14 +1975,14 @@ background: linear-gradient(
   }
 
   .main_container2 {
-    width: 100%;
+    width: 120%;
     padding: 30px;
     margin: 50px auto 0; /* Centering the container and adjusting top margin */
     display: flex;
     flex-direction: column; /* Ensure stacked layout on smaller screens */
     align-items: center; /* Center contents horizontally */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow box */
-    left: 20px;
+    left: 5px;
   }
 
   .img-container2 {
@@ -1960,14 +2015,14 @@ background: linear-gradient(
     text-align: center; /* Center text */
   }
   .main_container3 {
-    width: 100%;
+    width: 120%;
     padding: 30px;
     margin: 50px auto 0; /* Centering the container and adjusting top margin */
     display: flex;
     flex-direction: column; /* Ensure stacked layout on smaller screens */
     align-items: center; /* Center contents horizontally */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow box */
-    left: 20px;
+    left: 5px;
   }
 
   .img-container3 {
@@ -2000,14 +2055,14 @@ background: linear-gradient(
     text-align: center; /* Center text */
   }
   .main_container4 {
-    width: 100%;
+    width: 120%;
     padding: 30px;
     margin: 50px auto 0; /* Centering the container and adjusting top margin */
     display: flex;
     flex-direction: column; /* Ensure stacked layout on smaller screens */
     align-items: center; /* Center contents horizontally */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow box */
-    left: 20px;
+    left: 5px;
   }
 
   .img-container4 {
@@ -2068,7 +2123,7 @@ background: linear-gradient(
     text-align: center; /* Center align the text */
     margin: 0 auto; /* Center the button horizontally */
     margin-top: 20px; /* Adjust top margin */
-    left: 20px;
+    left: 10px;
     margin-bottom: 20px;
 
     position: relative;
