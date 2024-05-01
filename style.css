@@ -668,7 +668,6 @@ footer ul li a{
     float: none; /* Remove float */
     margin: 0 auto; /* Center horizontally */
     margin-bottom: 20px; /* Add bottom margin for spacing */
-    overflow-x: clip;
 
   }
   .body .text-box{
@@ -933,7 +932,7 @@ footer ul li a{
     text-align: center; /* Center align the text */
     margin: 0 auto; /* Center the button horizontally */
     margin-top: 40px; /* Adjust top margin */
-    left: 20px;
+    left: 6px;
     position: relative;
     cursor: pointer;
     background-color:rgba(101, 9, 156, 1);
