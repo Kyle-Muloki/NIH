@@ -10,6 +10,7 @@
   background-color: white;
   min-height: 100hv;
   width: 100%;
+  overflow-x: hidden;
 }
 
 
@@ -18,6 +19,7 @@ nav{
   padding: 2% 2%;
   justify-content: space-between;
   align-items: center;
+  overflow-x: hidden;
 }
 
 nav img{
@@ -79,6 +81,7 @@ background: linear-gradient(
 
 .home .content{
   max-width: 50rem;
+  overflow-x: hidden;
 }
 
 .home .content h3{
@@ -634,7 +637,6 @@ footer ul li a{
   .body {
     padding: 1rem; /* Adjust padding for smaller screens */
     flex: 1;
-    overflow-x: hidden;
     padding-top: 50px;
   }
   .body .image2 {
@@ -963,6 +965,7 @@ footer ul li a{
     text-align: left;
     z-index: 2;
     transition: 0.5s;
+    overflow-x: hidden;
 
   }
 
