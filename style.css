@@ -765,7 +765,7 @@ footer ul li a{
   }
 
   .body2 .image3 {
-    width:64%; /* Adjust image width for smaller screens */
+    width:70%; /* Adjust image width for smaller screens */
     height: auto; /* Allow height to adjust proportionally */
     position: static; /* Remove positioning */
     margin: 0 auto; /* Center the image */
