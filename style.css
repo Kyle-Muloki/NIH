@@ -776,13 +776,15 @@ footer ul li a{
   }
 
   .body2 .peach2 {
-    width: 60%; /* Adjust width to fill the container */
-    max-width: 324px; /* Set maximum width */
-    height: 320px; /* Allow height to adjust proportionally */
-    padding: 50px; /* Decrease padding for smaller screens */
-    margin: 0 auto; /* Center the element */
-
+    background: rgba(239, 62, 94, 1);
+    width: 60%; /* Adjust width to fit the container with margins */
+    max-width: 324px;
+    height: 350px; /* Allow height to adjust proportionally */
+    border-top: 20px;
+    padding: 50px; /* Reduce padding for smaller screens */
     float: none; /* Remove float */
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
   }
   .body2 .text-box2 {
     text-align: center; /* Center text for smaller screens */
