@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: Hind Vadodara, Inter;
   scroll-behavior: smooth;
+  
 }
 
 .header{
@@ -53,6 +54,7 @@ nav img{
   display: block;
   margin: auto;
   transition: 0.5s;
+  right: 0;
 }
 
 .nav-links ul li:hover::after{
@@ -648,7 +650,6 @@ footer ul li a{
     float: none; /* Remove float */
     margin-bottom: 20px; /* Add bottom margin for spacing */
     margin-top: -480px;
-    overflow-x: clip;
   }
 
   .body .peach {
@@ -747,16 +748,6 @@ footer ul li a{
     font-size: 40px; /* Reduce font size */
   }
   
-  .odometer.plus {
-    position: static; /* Reset position */
-  }
-  .odometer.plus::after {
-    content: "+";
-    position: absolute;
-    top: 10px;
-    right: -24px;
-    font-size: 30px; /* Adjust font size for smaller screens */
-  }
   .body2 {
     padding: 2rem; /* Decrease padding for smaller screens */
   }
@@ -942,8 +933,6 @@ footer ul li a{
     overflow-x: hidden;
   }
   
-
-
   .home .content h3{
     font-size: 20px;
   }
@@ -956,14 +945,14 @@ footer ul li a{
     overflow: hidden;
   }
   .nav-links{
-    position: absolute;
+    position: fixed;
     background: rgba(151, 51, 238);
     height: 100vh;
     width: 200px;
     top: 0;
     right: -200px;
     text-align: left;
-    z-index: 2;
+    z-index: 0;
     transition: 0.5s;
     overflow-x: hidden;
 
@@ -978,7 +967,7 @@ footer ul li a{
   }
 
   .nav-links ul{
-    padding: 30px;
+    padding: 10px;
   }
   
 
