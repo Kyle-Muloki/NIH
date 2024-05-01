@@ -629,11 +629,319 @@ footer ul li a{
   
 }
 
+@media(max-width: 700px) {
+  
+  .body {
+    padding: 1rem; /* Adjust padding for smaller screens */
+    flex: 1;
+    overflow-x: hidden;
+    padding-top: 50px;
+  }
+  .body .image2 {
+    width: 64%; /* Adjust width to fill the container */
+    height: auto; /* Allow height to adjust proportionally */
+    position: relative; /* Change position to relative */
+    top: -60px; /* Remove top positioning */
+    left: 0; /* Remove left positioning */
+    float: none; /* Remove float */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+    margin-top: -480px;
+    overflow-x: clip;
+  }
+
+  .body .peach {
+    background: rgba(239, 62, 94, 1);
+    width: 65%; /* Adjust width to fit the container with margins */
+    max-width: 324px;
+    height: 350px; /* Allow height to adjust proportionally */
+    border-top: 20px;
+    padding: 50px; /* Reduce padding for smaller screens */
+    float: none; /* Remove float */
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+    overflow-x: clip;
+
+  }
+  .body .text-box{
+    text-align: center; /* Center align the text */
+    margin: 0 auto; /* Center the text box horizontally */
+    margin-top: 50px; /* Adjust top margin */
+  }
+  
+  .body .text-box h2{
+    font-size: 32px; /* Reduce font size */
+    margin-top: 20px; /* Adjust top margin */
+    margin-left: 0; /* Remove left margin */
+  }
+  
+  .underline2{
+    width: 100px;
+    height: 5px;
+    margin: 0 auto; /* Center the underline */
+    margin-top: 20px; /* Adjust top margin */
+    background-color: rgba(239, 62, 94, 1);
+    position: relative; /* Change position to relative */
+  }
+  
+  .underline2 span{
+    position: absolute;
+    top: 0; /* Position the span at the top of the underline */
+    left: 50%; /* Position the span at the center horizontally */
+    transform: translateX(-50%); /* Center the span horizontally */
+  }
+  .body .text-box p{
+    padding-top: 1rem; /* Reduce top padding */
+    font-size: 16px; /* Reduce font size */
+    line-height: 30px; /* Reduce line height */
+    margin: 0 auto; /* Center the text horizontally */
+    text-align: center; /* Center align the text */
+    margin-top: 20px; /* Adjust top margin */
+    margin-left: 0; /* Remove left margin */
+  }
+  
+  .body .btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 10px 18px; /* Reduce padding */
+    border-radius: 15px; /* Simplify border-radius */
+    text-align: center; /* Center align the text */
+    margin: 0 auto; /* Center the button horizontally */
+    margin-top: 20px; /* Adjust top margin */
+    position: relative;
+    cursor: pointer;
+    background-color:rgba(101, 9, 156, 1);
+    display: block; /* Ensure the button occupies full width */
+  }
+  
+  .body .btn2:hover{
+    border: 1px solid rgb(175, 91, 248);
+    background:rgb(175, 91, 248);
+    transition: 0.5s;
+  }
+  .count {
+    height: auto; /* Adjust height to auto for dynamic content */
+    padding-top: 50px; /* Reduce top padding */
+    padding-left: 10px; /* Adjust left padding */
+    margin-left: 0; /* Remove left margin */
+  }
+  
+  .stats-container {
+    display: flex;
+    flex-direction: column; /* Stack columns in a vertical layout */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    margin: 20px auto; /* Center the container */
+    padding-inline: 0; /* Remove horizontal padding */
+    gap: 10px; /* Increase gap between stats */
+  }
+  
+  .stats-container .stats {
+    padding: 10px; /* Reduce padding */
+  }
+  
+  .stats-container .stats .odometer {
+    font-size: 40px; /* Reduce font size */
+  }
+  
+  .odometer.plus {
+    position: static; /* Reset position */
+  }
+  .odometer.plus::after {
+    content: "+";
+    position: absolute;
+    top: 10px;
+    right: -24px;
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
+  .body2 {
+    padding: 2rem; /* Decrease padding for smaller screens */
+  }
+
+  .body2 .image3 {
+    width: 70%; /* Adjust image width for smaller screens */
+    height: auto; /* Allow height to adjust proportionally */
+    position: static; /* Remove positioning */
+    margin: 0 auto; /* Center the image */
+    margin-top: -270px;
+    margin-left: 80px;
+    display: block; /* Ensure the image is displayed as a block element */
+    float: none; /* Remove float */
+  }
+
+  .body2 .peach2 {
+    width: 75%; /* Adjust width to fill the container */
+    max-width: 324px; /* Set maximum width */
+    height: 300px; /* Allow height to adjust proportionally */
+    padding: 50px; /* Decrease padding for smaller screens */
+    margin: 0 auto; /* Center the element */
+
+    float: none; /* Remove float */
+  }
+  .body2 .text-box2 {
+    text-align: center; /* Center text for smaller screens */
+    margin-top: 80px; /* Decrease top margin */
+  }
+
+  .body2 .text-box2 h2 {
+    font-size: 36px; /* Decrease font size for smaller screens */
+    margin-top: 20px; /* Remove top margin */
+  }
+
+  .underline3 {
+    width: 60px; /* Decrease width for smaller screens */
+    margin-left: 200px; /* Center horizontally */
+    margin-top: 15px; /* Adjust top margin */
+    margin-bottom: 10px; /* Decrease bottom margin */
+  }
+  .body2 .text-box2 p {
+    padding-top: 1rem; /* Decrease padding */
+    font-size: 16px; /* Decrease font size */
+    margin-top: 20px; /* Decrease top margin */
+    line-height: 30px; /* Decrease line height */
+  }
+  .Partners {
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+
+  .body2 .btn3 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 10px 18px; /* Reduce padding */
+    border-radius: 15px; /* Simplify border-radius */
+    text-align: center; /* Center align the text */
+    margin: 0 auto; /* Center the button horizontally */
+    margin-top: 20px; /* Adjust top margin */
+
+    position: relative;
+    cursor: pointer;
+    background-color:rgba(101, 9, 156, 1);
+    display: block; /* Ensure the button occupies full width */
+    overflow: hidden;
+  }
+  .Partners .end h1 {
+    margin-top: -50px; /* Decrease top margin */
+    padding-top: 100px; /* Decrease top padding */
+    font-size: 30px; /* Decrease font size */
+  }
+
+  .Partners .end p {
+    font-size: 18px; /* Decrease font size */
+    padding-top: 1rem; /* Decrease top padding */
+  }
+
+  .slider {
+    padding-top: 1rem; /* Decrease top padding */
+    box-shadow: none; /* Remove box shadow */
+  }
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+    padding: 0 10px; /* Adjust the padding between logos */
+    overflow-x: visible; /* Allow horizontal scrolling */
+    list-style: none; /* Remove the bullets */
+  }
+
+  .brand-logo {
+    padding: 0 5px; /* Adjust individual logo padding */
+  }
+
+  .brand-logo img {
+    width: 80px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: none; /* Remove box shadow */
+  }
+
+  .btn4{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 10px 18px; /* Reduce padding */
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto; /* Center the button horizontally */
+    right: 0;
+    margin-top: 70px;
+    left: 0;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    background-color: rgba(101, 9, 156, 1);
+    overflow-x: hidden;
+  }
+
+  .btn4:hover {
+    border: 1px solid rgb(175, 91, 248);
+    background: rgb(175, 91, 248);
+  }
+  .testimonials {
+    width: 80%; /* Adjust the width to fit smaller screens */
+    margin: auto;
+    padding-top: 50px; /* Adjust padding for smaller screens */
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+  .testimonial-col-1 {
+    margin-left: auto; /* Center the element horizontally */
+    margin-right: auto;
+    margin-top: 50px; /* Adjust margin top for spacing */
+    margin-bottom: 30px; /* Adjust margin bottom for spacing */
+    padding: 20px; /* Adjust padding for content */
+  }
+  .testimonial-col-2 {
+    margin-left: auto; /* Center the element horizontally */
+    margin-right: auto;
+    margin-top: 50px; /* Adjust margin top for spacing */
+    margin-bottom: 30px; /* Adjust margin bottom for spacing */
+    padding: 20px; /* Adjust padding for content */
+  }
+  .testimonial-col-1 p,
+  .testimonial-col-2 p {
+    padding: 0;
+    font-size: 14px; /* Adjust font size for better readability */
+  }
+  
+  .testimonial-col-1 h3,
+  .testimonial-col-2 h3 {
+    font-size: 20px; /* Adjust font size for better readability */
+  }
+  .subscribe {
+    padding: 30px; /* Reduce padding for better spacing */
+    font-size: 20px; /* Adjust font size for better readability */
+    margin-top: 20px; /* Adjust margin-top for better spacing */
+  }
+  .subscribe-txt {
+    font-size: 16px; /* Further reduce font size for smaller screens */
+    margin-top: 10px; /* Further adjust margin-top for better spacing */
+  }
+  .subscribe .btn5 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 10px 18px; /* Reduce padding */
+    border-radius: 15px; /* Simplify border-radius */
+    text-align: center; /* Center align the text */
+    margin: 0 auto; /* Center the button horizontally */
+    margin-top: 40px; /* Adjust top margin */
+    left: 20px;
+    position: relative;
+    cursor: pointer;
+    background-color:rgba(101, 9, 156, 1);
+    display: block; /* Ensure the button occupies full width */
+  }
+  footer {
+    bottom: unset;
+  }
+  .header{
+    overflow-x: hidden;
+  }
+  
 
 
-
-
-@media(max-width: 700px){
   .home .content h3{
     font-size: 20px;
   }
@@ -643,6 +951,7 @@ footer ul li a{
   
   .nav-links ul li{
     display: block;
+    overflow: hidden;
   }
   .nav-links{
     position: absolute;
@@ -654,6 +963,7 @@ footer ul li a{
     text-align: left;
     z-index: 2;
     transition: 0.5s;
+
   }
 
   nav .fa{
@@ -667,313 +977,10 @@ footer ul li a{
   .nav-links ul{
     padding: 30px;
   }
-  .body {
-    padding: 2rem; /* Reduced padding for smaller screens */
-  }
-
-  .body .image2 {
-    width: 100%; /* Take full width */
-    height: auto; /* Maintain aspect ratio */
-    position: relative; /* Adjust positioning */
-    top: 0;
-    left: 0;
-    margin: 0 auto 15px; /* Center horizontally with margin */
-  }
-
-  .body .peach {
-    width: 100%;
-    height: auto;
-    background: rgba(239, 62, 94, 1);
-    padding: 2rem; /* Reduced padding */
-    box-sizing: border-box; /* Include padding in width calculation */
-  }
-
-  .body .text-box {
-    padding: 2rem; /* Reduced padding */
-    text-align: center; /* Center text */
-    margin: 0; /* Reset margins */
-  }
-
-  .body .text-box h2 {
-    font-size: 36px; /* Adjusted font size */
-    color: rgba(51, 27, 59, 1);
-    margin-bottom: 1rem; /* Add space below */
-  }
-
-  .body .text-box p {
-    font-size: 16px; /* Adjusted font size */
-    color: rgba(51, 27, 59, 0.66);
-    line-height: 1.5; /* Adjusted line height */
-    margin-bottom: 2rem; /* Add space below */
-  }
-
-  .body .btn2 {
-    display: block; /* Full width button */
-    margin: 0 auto; /* Center horizontally */
-    text-decoration: none;
-    color: black;
-    border: 1px solid;
-    padding: 12px 20px;
-    border-radius: 15px;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  .body .btn2:hover {
-    border: 1px solid rgba(151, 51, 238);
-    background: rgba(151, 51, 238);
-    transition: 0.5s;
-  }
-  .count {
-    font-family: Hind Vadodara;
-    height: 100vh;
-    padding-top: 100px;
-    padding-left: flex;
-    margin-left: 50px;
-  }
-
-  .stats-container {
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr;
-    margin: 30px auto;
-    padding-inline: 16px;
-    gap: 24px;
-  }
-
-  .stats-container .stats {
-    color: rgba(51, 27, 59, 0.66);
-    padding: 20px;
-    text-align: center;
-  }
-
-  .stats-container .stats .odometer {
-    font-size: 50px;
-    font-weight: bold;
-    color: rgba(51, 27, 59, 1);
-    display: inline-block;
-  }
-
-  .odometer.plus {
-    position: relative;
-  }
-
-  .odometer.plus::after {
-    content: "+";
-    position: absolute;
-    top: 10px;
-    right: -24px;
-    font-size: 40px;
-  }
-  .body2 {
-    padding: 3rem;
-    flex: 1;
-  }
-
-  .body2 .image3 {
-    width: 100%; /* Full width on smaller screens */
-    height: auto; /* Maintain aspect ratio */
-    position: relative;
-    top: 30px;
-    left: 0;
-    bottom: 0;
-    float: none; /* Remove float for stacking */
-    padding: 20px;
-    margin-bottom: 20px; /* Add some space between elements */
-  }
-
-  .body2 .peach2 {
-    background: rgba(239, 62, 94, 1);
-    width: 100%;
-    height: auto; /* Responsive height */
-    border-top: 20px;
-    padding: 20px;
-    float: none; /* Remove float for stacking */
-    margin-bottom: 20px; /* Add some space between elements */
-  }
-
-  #parent2 {
-    position: relative;
-  }
-
-  .body2 .text-box2 {
-    text-align: left;
-    margin-right: 10px; /* Adjusted margin */
-    margin-top: 20px; /* Adjusted margin */
-  }
-
-  .body2 .text-box2 h2 {
-    font-size: 36px; /* Adjusted font size */
-    color: rgba(51, 27, 59, 1);
-    text-align: center;
-  }
-
-  .body2 .text-box2 p {
-    font-size: 16px; /* Adjusted font size */
-    color: rgba(51, 27, 59, 0.66);
-    line-height: 1.5;
-  }
-
-  .body2 .btn3 {
-    display: inline-block; /* Changed to inline-block */
-    text-decoration: none;
-    color: black;
-    border: 1px solid;
-    padding: 12px 18px;
-    border-radius: 15px;
-    text-align: center;
-    margin: 20px auto; /* Centered horizontally */
-    cursor: pointer;
-  }
-
-  .body2 .btn3:hover {
-    border: 1px solid rgba(151, 51, 238);
-    background: rgba(151, 51, 238);
-    transition: 0.5s;
-  }
-  .slider {
-    overflow: hidden;
-    width: 100%;
-  }
   
-  .slides {
-    display: flex;
-    transition: transform 0.5s ease;
-    padding: 0; /* Remove padding to fit within max-width */
-    list-style: none; /* Remove bullets from the list */
-    margin: 0; /* Remove default margin */
-    overflow-x: auto; /* Allow horizontal scrolling on small screens */
-    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
-    scroll-snap-type: x mandatory; /* Snap scrolling to each image */
-    
-  }
-  
-  .brand-logo {
-    width: 100px; /* Fixed width for all logos */
-    flex-shrink: 0; /* Prevent logos from shrinking */
-  }
-  
-  .brand-logo img {
-    width: 100%; /* Ensure the image takes the full width of its parent */
-    height: auto; /* Maintain aspect ratio */
-  }
-  
-  @keyframes slideAnimation {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(-100%); }
-    50% { transform: translateX(-200%); }
-    75% { transform: translateX(-300%); }
-    100% { transform: translateX(-400%); }
-  }
-  .btn4 {
-    display: inline-flex;
-    text-decoration: none;
-    color: black;
-    border: 1px solid;
-    padding: 12px 18px;
-    border-radius: 15px;
-    text-align: center;
-    justify-content: center;
-    margin-top: 20px; /* Adjust margin top */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-    position: absolute;
-    cursor: pointer;
-  }
 
-  .btn4:hover {
-    border: 1px solid rgba(151, 51, 238);
-    background: rgba(151, 51, 238);
-    transition: 0.5s;
-  }
-  .testimonials {
-    width: 80%; /* Adjust as needed */
-    margin: auto;
-    padding-top: 100px;
-    text-align: center;
-    font-family: Hind Vadodara;
-    font-size: 24px; /* Adjust as needed */
-    color: rgba(51, 27, 59, 1);
-  }
-
-  .testimonial-col-1, .testimonial-col-2 {
-    width: 100%; /* Take up full width */
-    margin: 0 auto 5% auto; /* Adjust margins as needed */
-    text-align: left;
-    background-color: rgb(208, 178, 234);
-    padding: 25px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column; /* Stack content vertically */
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-
-  .testimonial-col-1 h3, .testimonial-col-2 h3 {
-    font-size: 20px; /* Adjust as needed */
-  }
-
-  .testimonial-col-1 p, .testimonial-col-2 p {
-    font-size: 14px; /* Adjust as needed */
-  }
-  .subscribe {
-    padding: 50px; /* Adjust padding as needed */
-    text-align: center;
-    font-family: Hind Vadodara;
-    font-size: 24px; /* Adjust font size as needed */
-    color: rgba(51, 27, 59, 1);
-    flex: 1;
-  }
-
-  .subscribe-txt {
-    font-size: 18px; /* Adjust font size as needed */
-    margin-top: 20px;
-    text-align: center;
-    color: rgba(55, 71, 84, 1);
-  }
-
-  .subscribe .btn5 {
-    display: inline-flex;
-    text-decoration: none;
-    color: black;
-    border: 1px solid;
-    padding: 12px 18px;
-    border-radius: 15px;
-    text-align: center;
-    justify-content: center;
-    margin-top: 20px; /* Adjust margin top */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-    position: absolute;
-    cursor: pointer;
-  }
-
-
-  .btn5:hover {
-    border: 1px solid rgba(151, 51, 238);
-    background: rgba(151, 51, 238);
-    transition: 0.5s;
-  }
-  footer{
-    bottom: unset;
-
-  }
-  .col-3{
-    flex-basis: 100%;
-  }
-  .col-4{
-    flex-basis: 100%;
-  
-  }
-  .col-5{
-    flex-basis: 100%;
-  
-  }
-  .col-6{
-    flex-basis: 100%;
-  
-  }    
 }
+
 
 /*--------about us page------*/
 .sub-home{
@@ -1319,7 +1326,7 @@ background: linear-gradient(
     background-size: cover; /* Ensure background image covers the container */
   }
   .sub-home .content {
-    max-width: 90%; /* Adjust the max-width to fit the smaller screens */
+    max-width: 100%; /* Adjust the max-width to fit the smaller screens */
     padding: 0 20px; /* Add padding to maintain readability */
   }
 
@@ -1332,48 +1339,62 @@ background: linear-gradient(
     font-size: 16px; /* Reduce the font size for smaller screens */
     padding: 0.5rem 0; /* Adjust padding for spacing */
   }
-  .about-us {
-    padding: 1rem; /* Reduce padding for smaller screens */
-  }
+
 
   .about-us .image4 {
-    width: 100%; /* Make the image responsive to the container width */
+    width: 90%; /* Make the image responsive to the container width */
     height: auto; /* Maintain aspect ratio */
-    top: 0; /* Remove top positioning */
-    left: 0; /* Remove left positioning */
+    top: -50px; /* Remove top positioning */
+    left: 40px; /* Remove left positioning */
     float: none; /* Remove floating */
-    margin-bottom: 1rem; /* Add margin to separate from other elements */
-    padding: 10px; /* Adjust padding for spacing */
+    margin-bottom: 20px; /* Add margin to separate from other elements */
+    margin-top: -500px;
   }
 
   .about-us .peach3 {
-    width: 100%; /* Make the background element responsive to the container width */
-    height: auto; /* Maintain aspect ratio */
+    width: 80%; /* Make the background element responsive to the container width */
+    height: 460px; /* Maintain aspect ratio */
     float: none; /* Remove floating */
-    margin-bottom: 1rem; /* Add margin to separate from other elements */
-    padding: 10px; /* Adjust padding for spacing */
-  }
-  #parent3 {
-    position: static; /* Remove relative positioning for smaller screens */
+    margin-bottom: 20px; /* Add margin to separate from other elements */
+    left: 30px;
   }
 
-  .about-us-text {
-    text-align: center; /* Center align text for smaller screens */
-    margin-right: 0; /* Remove right margin */
-    margin-top: 20px; /* Adjust top margin */
+ .about-us-text{
+    text-align: center; /* Center align the text */
+    margin: 0 auto; /* Center the text box horizontally */
+    overflow-x: hidden;
+    margin-right: -100px;
   }
 
   .about-us-text h2 {
-    font-size: 32px; /* Decrease font size for smaller screens */
-    margin-left: 0; /* Remove left margin */
-    margin-bottom: 10px; /* Adjust bottom margin */
+    font-size: 32px; /* Reduce font size */
+    margin-top: 20px; /* Adjust top margin */
+    margin-left: -90px; /* Remove left margin */
+  }
+  .underline5{
+    width: 100px;
+    height: 5px;
+    margin: 0 auto; /* Center the underline */
+    margin-top: 20px; /* Adjust top margin */
+    background-color: rgba(239, 62, 94, 1);
+    position: relative; /* Change position to relative */
+  }
+  .underline4{
+    width: 100px;
+    height: 5px;
+    margin: 0 auto; /* Center the underline */
+    margin-top: 20px; /* Adjust top margin */
+    background-color: rgba(239, 62, 94, 1);
+    position: relative; /* Change position to relative */
+
   }
 
   .about-us-text p {
-    font-size: 16px; /* Decrease font size for smaller screens */
-    line-height: 1.5; /* Adjust line height for better readability */
-    margin-right: 0; /* Remove right margin */
-    text-align: center; /* Center align text for smaller screens */
+    font-size: 16px; /* Reduce font size */
+    line-height: 30px; /* Reduce line height */
+    text-align: center; /* Center align the text */
+    margin-top: 20px; /* Adjust top margin */
+    margin-left: 0; /* Remove left margin */
   }
   .Why {
     width: 80%; /* Adjust width for smaller screens */
@@ -1386,7 +1407,7 @@ background: linear-gradient(
     margin-left: auto; /* Remove left margin */
     margin-right: auto; /* Remove right margin */
     margin-top: 50px; /* Adjust top margin */
-    width: 80%; /* Adjust width for smaller screens */
+    width: 100%; /* Adjust width for smaller screens */
   }
 
   .vision {
@@ -1435,6 +1456,7 @@ background: linear-gradient(
     line-height: 1.5;
     color: rgba(244, 244, 244, 1);
     font-family: Inter;
+    margin-left: -30px;
   }
   .btn6 {
     display: block; /* Change display to block for full width */
@@ -1459,7 +1481,7 @@ background: linear-gradient(
   
   .gallery div img {
     width: 100%; /* Set image width to 100% */
-    max-width: none; /* Remove max-width */
+    max-width: 200px; /* Remove max-width */
   }
   .gallery-wrap {
     display: flex;
@@ -1474,6 +1496,45 @@ background: linear-gradient(
   .image5 {
     max-width: 100%; /* Set the maximum width to 100% of its container */
     height: auto; /* Maintain aspect ratio */
+  }
+  .subscribe2{
+    text-align: center; /* Center align the text */
+    margin: 0 auto; /* Center the text box horizontally */
+    overflow-x: hidden;
+    margin-right: -100px;
+  }
+  .subscribe2 h1{
+    font-size: 32px; /* Reduce font size */
+    margin-top: -40px; /* Adjust top margin */
+    margin-left: -90px; /* Remove left margin */
+  }
+  .subscribe2 p{
+    font-size: 16px; /* Reduce font size */
+    line-height: 30px; /* Reduce line height */
+    text-align: center; /* Center align the text */
+    margin-top: 20px; /* Adjust top margin */
+    margin-left: -90px; /* Remove left margin */
+  }
+  .subscribe2 .btn5{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 10px 18px; /* Reduce padding */
+    border-radius: 15px; /* Simplify border-radius */
+    text-align: center; /* Center align the text */
+    margin: 0 auto; /* Center the button horizontally */
+    margin-top: 40px; /* Adjust top margin */
+    left: -50px;
+    position: relative;
+    cursor: pointer;
+    background-color:rgba(101, 9, 156, 1);
+    display: block; /* Ensure the button occupies full width */
+  }
+  .our h2{
+    font-size: 32px; /* Reduce font size */
+    margin-top: 20px; /* Adjust top margin */
+    margin-left: -20px; /* Remove left margin */
   }
 }
 /*-------events page----------*/
@@ -1767,7 +1828,7 @@ background: linear-gradient(
     background-size: cover; /* Ensure the background image covers the container */
   }
   .events-content {
-    max-width: 90%; /* Adjust the maximum width to occupy a percentage of the viewport */
+    max-width: 100%; /* Adjust the maximum width to occupy a percentage of the viewport */
     margin: 0 auto; /* Center the content horizontally */
   }
 
@@ -1778,66 +1839,239 @@ background: linear-gradient(
   .events-content p {
     font-size: 16px; /* Decrease the font size for paragraphs */
   }
-  .main_container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+  .upcoming_events {
+    padding: 20px; /* Adjusted padding for smaller screens */
   }
   
-  .item-container{
-    position: relative;
-    margin: 24px;
-    width: calc(100% - 48px); /* Adjust margin size */
-    max-width: 320px; /* Set maximum width */
-    height: 570px;
-    overflow: hidden;
-    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
+  .coming {
+    text-align: center;
+    margin-top: 50px; /* Reduced margin for smaller screens */
+    font-size: 30px; /* Adjusted font size for smaller screens */
   }
   
-  .img-container,
-  .body-container{
+  .underline7 {
+    width: 80px; /* Reduced width for smaller screens */
+    height: 5px;
+    margin-left: 50%; /* Centered horizontally for smaller screens */
+    transform: translateX(-50%); /* Centered horizontally for smaller screens */
+    background-color: rgba(239, 62, 94, 1);
     position: absolute;
-    top: 0;
-    left: 0;
+    margin-bottom: 20px;
+  }
+  
+  .underline7 span {
+    position: absolute;
+  }
+  .event-img{
+    height: 30vh;
+
+  }
+  .main_container {
+  width: 100%;
+  padding: 30px;
+  margin: 100px auto 0; /* Centering the container and removing unnecessary margins */
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column; /* Ensure stacked layout on smaller screens */
+  align-items: center; /* Center contents horizontally */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Add shadow box */
+  
+  }
+
+  .img-container {
+  width: 100%;
+  padding-bottom: 30px;
+  border-radius: 20px; /* Adjusted border-radius */
+  }
+
+  .event_title {
+  padding: 10px;
+  margin: 0;
+  color: rgba(106, 106, 106, 1);
+  text-align: center; /* Center text */
+  margin-top: 30px;
+  }
+
+  .heading {
+    color: black;
+    text-align: center; /* Center text */
+  }
+
+  .dates {
+    margin-top: 10px; /* Adjusted margin */
+    font-size: 24px; /* Reduced font size */
+    text-align: center; /* Center text */
+  }
+
+  .month {
+    font-size: 18px; /* Reduced font size */
+    color: rgba(101, 9, 156, 1);
+    text-align: center; /* Center text */
+  }
+
+  .main_container2 {
     width: 100%;
-    height: 100%;
-  }
-  .overlay {
-    height: 300px; /* Adjust height for smaller screens */
-  }
-  .item-container:hover .overlay {
-    height: 100px; /* Adjust height for smaller screens */
-  }
-
-  .title,
-  .price {
-    font-size: 1.2rem; /* Adjust font size for smaller screens */
-    margin: 8px; /* Adjust margin for smaller screens */
-  }
-  .info {
-    font-size: 0.9rem; /* Adjust font size for smaller screens */
-    margin-bottom: 4px; /* Adjust margin for smaller screens */
+    padding: 30px;
+    margin: 50px auto 0; /* Centering the container and adjusting top margin */
+    display: flex;
+    flex-direction: column; /* Ensure stacked layout on smaller screens */
+    align-items: center; /* Center contents horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow box */
+    left: 20px;
   }
 
-  .separator {
-    width: 15px; /* Adjust width for smaller screens */
-    height: 4px; /* Adjust height for smaller screens */
-    margin-bottom: 12px; /* Adjust margin for smaller screens */
+  .img-container2 {
+    width: 100%;
+    padding-bottom: 30px;
+    border-radius: 20px; /* Adjusted border-radius */
   }
 
-  .additional-info {
-    padding: 20px;
+  .event_title2 {
+    padding: 10px;
+    margin: 0;
+    color: rgba(106, 106, 106, 1);
+    text-align: center; /* Center text */
   }
-  .action {
-    font-size: 1em; /* Adjust font size for smaller screens */
-    width: 80%; /* Adjust width for smaller screens */
-    padding: 10px; /* Adjust padding for smaller screens */
-    font-weight: normal; /* Adjust font weight for smaller screens */
-    letter-spacing: 1px; /* Adjust letter spacing for smaller screens */
+
+  .heading2 {
+    color: black;
+    text-align: center; /* Center text */
   }
+
+  .dates2 {
+    margin-top: 10px; /* Adjusted margin */
+    font-size: 24px; /* Reduced font size */
+    text-align: center; /* Center text */
+  }
+
+  .month2 {
+    font-size: 18px; /* Reduced font size */
+    color: rgba(101, 9, 156, 1);
+    text-align: center; /* Center text */
+  }
+  .main_container3 {
+    width: 100%;
+    padding: 30px;
+    margin: 50px auto 0; /* Centering the container and adjusting top margin */
+    display: flex;
+    flex-direction: column; /* Ensure stacked layout on smaller screens */
+    align-items: center; /* Center contents horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow box */
+    left: 20px;
+  }
+
+  .img-container3 {
+    width: 100%;
+    padding-bottom: 30px;
+    border-radius: 20px; /* Adjusted border-radius */
+  }
+
+  .event_title3 {
+    padding: 10px;
+    margin: 0;
+    color: rgba(106, 106, 106, 1);
+    text-align: center; /* Center text */
+  }
+
+  .heading3 {
+    color: black;
+    text-align: center; /* Center text */
+  }
+
+  .dates3 {
+    margin-top: 10px; /* Adjusted margin */
+    font-size: 24px; /* Reduced font size */
+    text-align: center; /* Center text */
+  }
+
+  .month3 {
+    font-size: 18px; /* Reduced font size */
+    color: rgba(101, 9, 156, 1);
+    text-align: center; /* Center text */
+  }
+  .main_container4 {
+    width: 100%;
+    padding: 30px;
+    margin: 50px auto 0; /* Centering the container and adjusting top margin */
+    display: flex;
+    flex-direction: column; /* Ensure stacked layout on smaller screens */
+    align-items: center; /* Center contents horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow box */
+    left: 20px;
+  }
+
+  .img-container4 {
+    width: 100%;
+    padding-bottom: 30px;
+    border-radius: 20px; /* Adjusted border-radius */
+  }
+
+  .event_title4 {
+    padding: 10px;
+    margin: 0;
+    color: rgba(106, 106, 106, 1);
+    text-align: center; /* Center text */
+  }
+
+  .heading4 {
+    color: black;
+    text-align: center; /* Center text */
+  }
+
+  .dates4{
+    margin-top: 10px; /* Adjusted margin */
+    font-size: 24px; /* Reduced font size */
+    text-align: center; /* Center text */
+  }
+
+  .month4 {
+    font-size: 18px; /* Reduced font size */
+    color: rgba(101, 9, 156, 1);
+    text-align: center; /* Center text */
+  }
+  .press{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 10px 18px; /* Reduce padding */
+    border-radius: 15px; /* Simplify border-radius */
+    text-align: center; /* Center align the text */
+    margin: 0 auto; /* Center the button horizontally */
+    margin-top: 20px; /* Adjust top margin */
+    left: 20px;
+    margin-bottom: 20px;
+
+    position: relative;
+    cursor: pointer;
+    background-color:rgba(101, 9, 156, 1);
+    display: block; /* Ensure the button occupies full width */
+    overflow: hidden;
+  }
+  .press2{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 10px 18px; /* Reduce padding */
+    border-radius: 15px; /* Simplify border-radius */
+    text-align: center; /* Center align the text */
+    margin: 0 auto; /* Center the button horizontally */
+    margin-top: 20px; /* Adjust top margin */
+    left: 20px;
+    margin-bottom: 20px;
+
+    position: relative;
+    cursor: pointer;
+    background-color:rgba(101, 9, 156, 1);
+    display: block; /* Ensure the button occupies full width */
+    overflow: hidden;
+  }
+
+
+  
+
+  
 
 }
 
@@ -1981,15 +2215,15 @@ background: linear-gradient(
     font-size: 16px; /* Decrease font size for smaller screens */
   }
   .logo_slider {
-    overflow-x: scroll; /* Enable horizontal scrolling on smaller screens */
+    overflow-x: hidden; /* Enable horizontal scrolling on smaller screens */
     padding: 1rem; /* Add padding for better spacing */
     white-space: nowrap; /* Prevent line breaks */
   }
 
   .overflow {
     padding: 2rem 0; /* Adjust padding for better spacing */
-    overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
-    overflow-y: hidden; /* Hide vertical overflow */
+    overflow-x: hidden; /* Enable horizontal scrolling on smaller screens */
+    overflow-y: visible; /* Hide vertical overflow */
   }
 
   .reverse .logos_wrappers {
@@ -2011,12 +2245,12 @@ background: linear-gradient(
     padding: 0.5rem; /* Adjust padding */
     aspect-ratio: auto 60px; /* Adjust aspect ratio for better display */
     background: var(--item-bg);
-    border: 1px solid #ccc; /* Add border for better visibility */
+    border: 1px solid #ece3e3; /* Add border for better visibility */
   }
   .logo_item img {
     height: 3rem; /* Adjust image height for smaller screens */
     margin: 0 1rem; /* Adjust margins for smaller screens */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust box shadow for smaller screens */
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1); /* Adjust box shadow for smaller screens */
   }
 
   @keyframes logoLoop {
@@ -2055,7 +2289,7 @@ background: linear-gradient(
   font-family: Hind vadodara;
   line-height: 1.5;
   text-align: center;
-  margin-left: 500px;
+  margin-left: 550px;
 }
 .contact-box{
   display: flex;
@@ -2185,9 +2419,8 @@ tr td{
     flex: 1; /* Use flex-grow to take available space */
     padding: 40px; /* Adjust padding for better spacing */
     margin-right: auto;
-    margin-left: auto;
-    background: rgba(101, 9, 156, 0.63);
-    color: white;
+    margin-left: 180px;
+    color:black;
   }
   
   .contact-header {
