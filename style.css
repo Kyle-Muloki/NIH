@@ -555,6 +555,9 @@ footer ul li a{
   padding: 10px;
 
 }
+.col-5 h4{
+  font-weight: bold;
+}
 .col-5 h3{
   width: fit-content;
   margin-bottom: 40px;
@@ -572,6 +575,9 @@ footer ul li a{
 .contact-info i {
   margin-right: 10px; /* Adjust the spacing between icon and text */
   vertical-align: middle;
+}
+.contact-info p{
+  font-weight: bold;
 }
 .col-6{
   padding: 10px;
@@ -645,7 +651,7 @@ footer ul li a{
     width: 64%; /* Adjust width to fill the container */
     height: auto; /* Allow height to adjust proportionally */
     position: relative; /* Change position to relative */
-    top: -60px; /* Remove top positioning */
+    top: -50px; /* Remove top positioning */
     left: 0; /* Remove left positioning */
     float: none; /* Remove float */
     margin-bottom: 20px; /* Add bottom margin for spacing */
@@ -728,6 +734,13 @@ footer ul li a{
     padding-top: 50px; /* Reduce top padding */
     padding-left: 10px; /* Adjust left padding */
     margin-left: 0; /* Remove left margin */
+  }
+  .odometer.plus::after{
+    content:"+";
+    position: absolute;
+    top:6px;
+    right: -24px;
+    font-size: 40px;
   }
   
   .stats-container {
@@ -928,6 +941,10 @@ footer ul li a{
   }
   footer {
     bottom: unset;
+  }
+  .row-2 {
+    max-width: 100%; /* Adjust the max-width for smaller screens */
+    padding: 0 15px; /* Add padding to the sides for spacing */
   }
   .header{
     overflow-x: hidden;
