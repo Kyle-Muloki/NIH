@@ -766,7 +766,7 @@ footer ul li a{
   }
 
   .body2 .image3 {
-    width:60%; /* Adjust image width for smaller screens */
+    width:64%; /* Adjust image width for smaller screens */
     height: auto; /* Allow height to adjust proportionally */
     position: static; /* Remove positioning */
     margin: 0 auto; /* Center the image */
@@ -777,9 +777,9 @@ footer ul li a{
   }
 
   .body2 .peach2 {
-    width: 75%; /* Adjust width to fill the container */
+    width: 60%; /* Adjust width to fill the container */
     max-width: 324px; /* Set maximum width */
-    height: 300px; /* Allow height to adjust proportionally */
+    height: 350px; /* Allow height to adjust proportionally */
     padding: 50px; /* Decrease padding for smaller screens */
     margin: 0 auto; /* Center the element */
 
