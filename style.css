@@ -400,10 +400,10 @@ nav .fa{
   padding: 12px 18px;
   border-radius: 15px 15px 15px 15px;
   position: absolute;
-  top; 50%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%);
-  top 30px;
+  top: 30px;
   cursor: pointer;
   font-size: 18px;
   background-color: rgba(101, 9, 156, 1);
@@ -873,7 +873,7 @@ footer ul li a{
     margin: 0 auto; /* Center the button horizontally */
     right: 0;
     margin-top: 70px;
-    left: 0;
+    left: 200px;
     position: relative;
     display: block;
     cursor: pointer;
@@ -1110,7 +1110,6 @@ background: linear-gradient(
   line-height: 40px;
   margin-right: 580px;
   margin-left: 60px;
-  padding-right: 20px;
   align-items: center;
   margin-top: 20px;
   padding: 0%;
@@ -1253,7 +1252,7 @@ background: linear-gradient(
   width: 1300px;
   display: flex;
   overflow-x: scroll;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 0;
 }
 .gallery div{
@@ -1416,8 +1415,9 @@ background: linear-gradient(
     line-height: 30px; /* Reduce line height */
     text-align: center; /* Center align the text */
     margin-top: 20px; /* Adjust top margin */
-    margin-left: 20px; /* Remove left margin */
+    margin-left: 10px; /* Remove left margin */
     padding: 0%;
+    margin-right: -10px;
   }
   .Why {
     width: 80%; /* Adjust width for smaller screens */
@@ -1794,6 +1794,29 @@ background: linear-gradient(
   background-color: rgba(225,225,225,0.2);
 
 }
+.upcoming_events{
+  padding: 30px;
+
+}
+.coming{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  margin-bottom: 50px;
+
+}
+.underline7{
+  width: 100px;
+  height: 5px;
+  margin-left: 650px;
+  background-color: rgba(239, 62, 94, 1);
+  position: absolute;
+  margin-bottom: 20px;
+}
+.underline7 span{
+  position: absolute;
+
+}
 .Partners2{
   padding: 10px;
 }
@@ -1813,6 +1836,21 @@ background: linear-gradient(
   color:rgba(55, 71, 84, 1);
   padding-top: 2rem;
 }
+.btn4{
+  display:inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid;
+  padding: 12px 18px;
+  border-radius: 15px 15px 15px 15px;
+  position: absolute;
+  top: 480%;
+  left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  background-color: rgba(101, 9, 156, 1);
+}
 
 .btn4:hover{
   border: 1px solid rgb(175, 91, 248);
@@ -1820,7 +1858,6 @@ background: linear-gradient(
   transition: 0.5s;
 }
 .subscribe3{
-  padding: 100px;
   text-align: center;
   font-family: Hind Vadodara;
   font-size: 30px;
@@ -1892,6 +1929,7 @@ background: linear-gradient(
     text-align: center;
     margin-top: 50px; /* Reduced margin for smaller screens */
     font-size: 30px; /* Adjusted font size for smaller screens */
+    padding: 0%;
   }
   
   .underline7 {
@@ -1970,6 +2008,21 @@ background: linear-gradient(
     padding: 10px; /* Adjust padding for smaller screens */
     font-weight: normal; /* Adjust font weight for smaller screens */
     letter-spacing: 1px; /* Adjust letter spacing for smaller screens */
+  }
+  .btn4{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 12px 18px;
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+    top: 562%;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    background-color: rgba(101, 9, 156, 1);
   }
 
 
@@ -2122,7 +2175,7 @@ background: linear-gradient(
 
   .overflow {
     padding: 2rem 0; /* Adjust padding for better spacing */
-    overflow-x: hidden; /* Enable horizontal scrolling on smaller screens */
+    overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
     overflow-y: visible; /* Hide vertical overflow */
   }
 
@@ -2135,9 +2188,10 @@ background: linear-gradient(
     flex-wrap: nowrap; /* Prevent wrapping */
     align-items: center;
     justify-content: flex-start; /* Adjust alignment as needed */
-    gap: 1rem; /* Add gap between items */
+    gap: 10px; /* Add gap between items */
     overflow-x: auto; /* Enable horizontal scrolling */
     overflow-y: hidden; /* Hide vertical overflow */
+    animation: logoLoop 15s linear infinite;
   }
 
   .logo_item {
