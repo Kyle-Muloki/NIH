@@ -1813,22 +1813,7 @@ background: linear-gradient(
   color:rgba(55, 71, 84, 1);
   padding-top: 2rem;
 }
-.Partners2.btn4{
-  display:inline-block;
-  text-decoration: none;
-  color: white;
-  border: 1px solid;
-  padding: 12px 18px;
-  border-radius: 15px 15px 15px 15px;
-  text-align: justify;
-  align-items: center;
-  margin-top: 50px;
-  margin-left: 550px;
-  left: 50px;
-  position: relative;
-  cursor: pointer;
-  background-color: rgba(101, 9, 156, 1);
-}
+
 .btn4:hover{
   border: 1px solid rgb(175, 91, 248);
   background: rgb(175, 91, 248);
@@ -1841,7 +1826,7 @@ background: linear-gradient(
   font-size: 30px;
   color: rgba(51, 27, 59, 1);
   flex: 1;
-  margin-top: -80px;
+  margin-top: 50px;
 }
 .subscribe3-txt{
   font-size: 23px;
@@ -1859,7 +1844,7 @@ background: linear-gradient(
   text-align: justify;
   align-items: center;
   margin-top: 30px;
-  margin-left: -50px;
+  margin-left: -20px;
   cursor: pointer;
   font-size: 18px;
   background-color: rgba(101, 9, 156, 1);
