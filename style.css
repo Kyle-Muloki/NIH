@@ -392,7 +392,7 @@ nav .fa{
   }
 }
 .btn4{
-  display:flex;
+  display:inline-block;
   text-decoration: none;
   color: white;
   border: 1px solid;
@@ -401,10 +401,12 @@ nav .fa{
   text-align: justify;
   align-items: center;
   margin-top: 50px;
-  left: 600px;
-  position: absolute;
+  margin-left: 500px;
+  left: 8px;
+  position: relative;
   cursor: pointer;
   background-color: rgba(101, 9, 156, 1);
+  justify-content: space-evenly;
 }
 .btn4:hover{
   border: 1px solid rgb(175, 91, 248);
@@ -428,7 +430,7 @@ nav .fa{
   margin-right: 300px;
   margin-top: 100px;
   text-align: left;
-  background-color: rgb(208, 178, 234);
+  background-color:rgb(208, 178, 234);
   padding: 25px;
   cursor: pointer;
   display: flex;
@@ -445,7 +447,7 @@ nav .fa{
   padding: 25px;
   cursor: pointer;
   display: flex;
-  margin-top: -270px;
+  margin-top: -290px;
   margin-right: -300px;
   margin-left: 300px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -481,7 +483,7 @@ nav .fa{
   color:rgba(55, 71, 84, 1);
 }
 .subscribe .btn5{
-  display:flex;
+  display:inline-block;
   text-decoration: none;
   color: white;
   border: 1px solid;
@@ -491,7 +493,6 @@ nav .fa{
   align-items: center;
   margin-top: 30px;
   left: 600px;
-  position: absolute;
   cursor: pointer;
   font-size: 18px;
   background-color: rgba(101, 9, 156, 1);
@@ -1109,7 +1110,7 @@ background: linear-gradient(
   line-height: 40px;
   right: 30px;
   margin-left: 60px;
-  padding-right: 100px;
+  padding-right: 20px;
   align-items: center;
   margin-top: 20px;
 }
