@@ -1844,7 +1844,7 @@ background: linear-gradient(
   text-align: justify;
   align-items: center;
   margin-top: 30px;
-  margin-left: -20px;
+  margin-left: 0px;
   cursor: pointer;
   font-size: 18px;
   background-color: rgba(101, 9, 156, 1);
