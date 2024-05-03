@@ -400,13 +400,11 @@ nav .fa{
   border-radius: 15px 15px 15px 15px;
   text-align: justify;
   align-items: center;
-  margin-top: 50px;
-  margin-left: 500px;
-  left: 80px;
-  position: relative;
+  margin-top: 30px;
+  margin-left: 600px;
   cursor: pointer;
+  font-size: 18px;
   background-color: rgba(101, 9, 156, 1);
-  justify-content: space-evenly;
 }
 .btn4:hover{
   border: 1px solid rgb(175, 91, 248);
@@ -1108,11 +1106,12 @@ background: linear-gradient(
   font-size: 18px;
   color: rgba(51, 27, 59, 0.66);
   line-height: 40px;
-  right: 30px;
+  margin-right: 580px;
   margin-left: 60px;
   padding-right: 20px;
   align-items: center;
   margin-top: 20px;
+  padding: 0%;
 
 }
 .Why{
@@ -2084,14 +2083,11 @@ background: linear-gradient(
   border-radius: 15px 15px 15px 15px;
   text-align: justify;
   align-items: center;
-  margin-top: 10px;
-  margin-bottom: 50px;
+  margin-top: 30px;
   left: 600px;
-  position: absolute;
   cursor: pointer;
   font-size: 18px;
   background-color: rgba(101, 9, 156, 1);
-  font-family: Hind Vadodara;
 }
 .done:hover{
   border: 1px solid rgb(175, 91, 248);
