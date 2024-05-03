@@ -363,7 +363,7 @@ nav .fa{
   width: 100%;
   padding-top: 2rem;
   box-shadow: 0.8rem 1.4rem -.2rem black;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .slides {
@@ -399,7 +399,7 @@ nav .fa{
   border: 1px solid;
   padding: 12px 18px;
   border-radius: 15px 15px 15px 15px;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%);
@@ -408,6 +408,7 @@ nav .fa{
   font-size: 18px;
   background-color: rgba(101, 9, 156, 1);
 }
+
 .btn4:hover{
   border: 1px solid rgb(175, 91, 248);
   background: rgb(175, 91, 248);
@@ -862,24 +863,6 @@ footer ul li a{
     box-shadow: none; /* Remove box shadow */
   }
 
-  .btn4{
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    border: 1px solid;
-    padding: 10px 18px; /* Reduce padding */
-    border-radius: 15px;
-    text-align: center;
-    margin: 0 auto; /* Center the button horizontally */
-    right: 0;
-    margin-top: 70px;
-    left: 200px;
-    position: relative;
-    display: block;
-    cursor: pointer;
-    background-color: rgba(101, 9, 156, 1);
-    overflow-x: hidden;
-  }
 
   .btn4:hover {
     border: 1px solid rgb(175, 91, 248);
@@ -1836,21 +1819,7 @@ background: linear-gradient(
   color:rgba(55, 71, 84, 1);
   padding-top: 2rem;
 }
-.btn4{
-  display:inline-block;
-  text-decoration: none;
-  color: white;
-  border: 1px solid;
-  padding: 12px 18px;
-  border-radius: 15px 15px 15px 15px;
-  position: absolute;
-  top: 480%;
-  left: 50%;
-  transform: translate(-50%);
-  cursor: pointer;
-  font-size: 18px;
-  background-color: rgba(101, 9, 156, 1);
-}
+
 
 .btn4:hover{
   border: 1px solid rgb(175, 91, 248);
@@ -2009,21 +1978,7 @@ background: linear-gradient(
     font-weight: normal; /* Adjust font weight for smaller screens */
     letter-spacing: 1px; /* Adjust letter spacing for smaller screens */
   }
-  .btn4{
-    display:inline-block;
-    text-decoration: none;
-    color: white;
-    border: 1px solid;
-    padding: 12px 18px;
-    border-radius: 15px 15px 15px 15px;
-    position: absolute;
-    top: 562%;
-    left: 50%;
-    transform: translate(-50%);
-    cursor: pointer;
-    font-size: 18px;
-    background-color: rgba(101, 9, 156, 1);
-  }
+
 
 
   
