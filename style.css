@@ -1400,7 +1400,7 @@ background: linear-gradient(
     margin-top: 20px; /* Adjust top margin */
     margin-left: 10px; /* Remove left margin */
     padding: 0%;
-    margin-right: -10px;
+    margin-right: -100px;
   }
   .Why {
     width: 80%; /* Adjust width for smaller screens */
