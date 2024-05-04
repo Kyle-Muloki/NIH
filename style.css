@@ -644,26 +644,26 @@ footer ul li a{
 @media(max-width: 700px) {
   
   .body {
-    padding: 1rem; /* Adjust padding for smaller screens */
     flex: 1;
     padding-top: 50px;
   }
   .body .image2 {
-    width: 64%; /* Adjust width to fill the container */
+    width: 80%; /* Adjust width to fill the container */
     height: auto; /* Allow height to adjust proportionally */
     position: relative; /* Change position to relative */
     top: -50px; /* Remove top positioning */
-    left: 0; /* Remove left positioning */
+    left: 20px; /* Remove left positioning */
     float: none; /* Remove float */
+    margin-right: 20px;
     margin-bottom: 20px; /* Add bottom margin for spacing */
     margin-top: -480px;
   }
 
   .body .peach {
     background: rgba(239, 62, 94, 1);
-    width: 60%; /* Adjust width to fit the container with margins */
-    max-width: 324px;
-    height: 350px; /* Allow height to adjust proportionally */
+    width: 69%; /* Adjust width to fit the container with margins */
+    max-width: 350px;
+    height: 330px; /* Allow height to adjust proportionally */
     border-top: 20px;
     padding: 50px; /* Reduce padding for smaller screens */
     float: none; /* Remove float */
@@ -770,7 +770,7 @@ footer ul li a{
     height: auto; /* Allow height to adjust proportionally */
     position: static; /* Remove positioning */
     margin: 0 auto; /* Center the image */
-    margin-top: -340px;
+    margin-top: -310px;
     margin-left: 80px;
     display: block; /* Ensure the image is displayed as a block element */
     float: none; /* Remove float */
@@ -778,9 +778,9 @@ footer ul li a{
 
   .body2 .peach2 {
     background: rgba(239, 62, 94, 1);
-    width: 60%; /* Adjust width to fit the container with margins */
-    max-width: 324px;
-    height: 350px; /* Allow height to adjust proportionally */
+    width: 69%; /* Adjust width to fit the container with margins */
+    max-width: 350px;
+    height: 330px; /* Allow height to adjust proportionally */
     border-top: 20px;
     padding: 50px; /* Reduce padding for smaller screens */
     float: none; /* Remove float */
@@ -1398,9 +1398,9 @@ background: linear-gradient(
     line-height: 30px; /* Reduce line height */
     text-align: center; /* Center align the text */
     margin-top: 20px; /* Adjust top margin */
-    margin-left: 10px; /* Remove left margin */
+    margin-left: -10px; /* Remove left margin */
     padding: 0%;
-    margin-right: -100px;
+    margin-right: -10px;
   }
   .Why {
     width: 80%; /* Adjust width for smaller screens */
