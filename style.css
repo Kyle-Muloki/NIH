@@ -1041,6 +1041,7 @@ background: linear-gradient(
 }
 .about-us{
     padding: 2rem;
+    margin-bottom: 50px;
 }
 .about-us .image4{
   width: 450px;
@@ -1053,6 +1054,7 @@ background: linear-gradient(
   padding: 10px;
   margin-right: 50px;
   margin-bottom: 100px;
+  margin-left: -100px;
   
 }
 .about-us .peach3{
@@ -1072,20 +1074,21 @@ background: linear-gradient(
 }
 .about-us-text{
   text-align: left;
-  margin-right: 50px;
+  right: -100px;
   margin-top: 100px;
 }
 .about-us-text h2{
   font-size: 48px;
   color:rgba(51, 27, 59, 1);
   text-align: center;
-  margin-left: -30px;
+  margin-left: -70px;
   margin-bottom: 20px;
 }
 .underline5{
   width: 100px;
   height: 5px;
   margin-left: 230px;
+  left: 30px;
   background-color: rgba(239, 62, 94, 1);
   position: absolute;
   margin-top: 5px;
@@ -1112,11 +1115,10 @@ background: linear-gradient(
   font-size: 18px;
   color: rgba(51, 27, 59, 0.66);
   line-height: 40px;
-  margin-right: 280px;
+  margin-right: 580px;
+  right: -480px;
   margin-left: 60px;
-  align-items: center;
-  text-align: left;
-  margin-top: 20px 0;
+  margin-top: 40px;
   padding: 0%;
 
 }
