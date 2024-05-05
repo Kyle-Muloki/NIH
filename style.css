@@ -1115,7 +1115,8 @@ background: linear-gradient(
   margin-right: 280px;
   margin-left: 60px;
   align-items: center;
-  margin-top: 20px;
+  text-align: left;
+  margin-top: 20px 0;
   padding: 0%;
 
 }
