@@ -252,7 +252,7 @@ nav .fa{
 .odometer.plus::after{
   content:"+";
   position: absolute;
-  top:8px;
+  top:10px;
   right: -24px;
   font-size: 40px;
 }
@@ -1819,7 +1819,7 @@ background: linear-gradient(
 .underline7{
   width: 100px;
   height: 5px;
-  margin-left: 650px;
+  margin-left: 600px;
   background-color: rgba(239, 62, 94, 1);
   position: absolute;
   margin-bottom: 20px;
