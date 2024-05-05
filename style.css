@@ -938,6 +938,7 @@ footer ul li a{
   }
   .header{
     overflow-x: hidden;
+    min-height: 75hv;
   }
   
   .home .content h3{
@@ -975,6 +976,26 @@ footer ul li a{
 
   .nav-links ul{
     padding: 10px;
+  }
+  .home{
+    display: flex;
+    align-items: center;
+    min-height: 75vh;
+    width: 100%;
+
+    background: -webkit-linear-gradient(
+      rgba(218, 34, 225, 0.6),
+      rgba(151, 51, 238, 0.7)
+    ),
+    url(images/NIH\ 1.png) center center fixed;
+  background: linear-gradient(
+      rgba(218, 34, 225, 0.6),
+      rgba(151, 51, 238, 0.7)
+    ),
+    url(images/NIH\ 1.png) center center fixed;
+    background-size: cover; /* Ensure background image covers the container */
+    overflow-x: hidden;
+   
   }
   
 
@@ -1091,7 +1112,7 @@ background: linear-gradient(
   font-size: 18px;
   color: rgba(51, 27, 59, 0.66);
   line-height: 40px;
-  margin-right: 580px;
+  margin-right: 280px;
   margin-left: 60px;
   align-items: center;
   margin-top: 20px;
@@ -1542,12 +1563,14 @@ background: linear-gradient(
   }
   .our h2{
     font-size: 32px; /* Reduce font size */
-    margin-top: 20px; /* Adjust top margin */
+    margin-top: 30px; /* Adjust top margin */
     margin-left: 0; /* Remove left margin */
   }
   .underline6{
     overflow-x: hidden;
     margin-right: 0;
+    margin-top: 60px;
+    margin-left: 10px;
   }
   .header{
     overflow-x: hidden;
