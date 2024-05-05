@@ -799,7 +799,7 @@ footer ul li a{
 
   .underline3 {
     width: 60px; /* Decrease width for smaller screens */
-    margin-left: 200px; /* Center horizontally */
+    margin-left: 150px; /* Center horizontally */
     margin-top: 15px; /* Adjust top margin */
     margin-bottom: 10px; /* Decrease bottom margin */
   }
@@ -1368,12 +1368,11 @@ background: linear-gradient(
     padding: 0.5rem 0; /* Adjust padding for spacing */
   }
 
-
   .about-us .image4 {
-    width: 90%; /* Make the image responsive to the container width */
+    width: 70%; /* Make the image responsive to the container width */
     height: auto; /* Maintain aspect ratio */
     top: -35px; /* Remove top positioning */
-    left: 40px; /* Remove left positioning */
+    left: 90px; /* Remove left positioning */
     float: none; /* Remove floating */
     margin-bottom: 20px; /* Add margin to separate from other elements */
     margin-top: -500px;
@@ -1382,12 +1381,14 @@ background: linear-gradient(
   }
 
   .about-us .peach3 {
-    width: 80%; /* Make the background element responsive to the container width */
-    height: 500px; /* Maintain aspect ratio */
+    width: 69%; /* Make the background element responsive to the container width */
+    max-width: 350px;
+    height: 380px; /* Maintain aspect ratio */
     float: none; /* Remove floating */
     margin-bottom: 20px; /* Add margin to separate from other elements */
     left: 30px;
     overflow-x: hidden;
+    margin-top: 20px;
   }
 
  .about-us-text{
@@ -1404,6 +1405,7 @@ background: linear-gradient(
   .underline5{
     width: 100px;
     height: 5px;
+    left: 2px;
     margin: 0 auto; /* Center the underline */
     margin-top: 20px; /* Adjust top margin */
     background-color: rgba(239, 62, 94, 1);
