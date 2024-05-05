@@ -1088,8 +1088,7 @@ background: linear-gradient(
   width: 100px;
   height: 5px;
   margin-left: 230px;
-  margin-right: 150px;
-  left: 30px;
+  left:-30px;
   background-color: rgba(239, 62, 94, 1);
   position: absolute;
   margin-top: 5px;
