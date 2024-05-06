@@ -1333,6 +1333,36 @@ background: linear-gradient(
   background: rgb(175, 91, 248);
   transition: 0.5s;
 }
+.subscription-form {
+  display: none;
+  margin-top: 20px;
+}
+
+/* Style for the form inputs */
+.subscription-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for the form submit button */
+.subscription-form input[type="submit"] {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #6e41e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscription-form input[type="submit"]:hover {
+  background-color: #4c28a1;
+}
 @media(max-width: 700px) {
   .sub-home {
     display: flex;

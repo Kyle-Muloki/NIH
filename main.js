@@ -65,6 +65,18 @@ document.addEventListener('DOMContentLoaded', () => {
   startSlider();
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+  // Find the toggle link and form elements
+  const toggleLink = document.getElementById("toggleFormButton");
+  const form = document.querySelector("[data-eo-form-id='6ba78e66-0b79-11ef-9d4a-e5c19b11a924']");
+
+  // Add click event listener to the toggle link
+  toggleLink.addEventListener("click", function(event) {
+    event.preventDefault(); // Prevent default link behavior
+    form.classList.toggle("visible"); // Toggle the visibility of the form
+  });
+});
+
 
 
 
