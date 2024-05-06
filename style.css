@@ -69,13 +69,13 @@ nav img{
   align-items:center;
   min-height:100vh;
   background: -webkit-linear-gradient(
-    rgba(218, 34, 225, 0.6),
-    rgba(151, 51, 238, 0.7)
-  ),
+    rgba(101, 9, 156, 0.57),
+    rgba(101, 9, 156, 0.57)
+    ),
   url(images/NIH\ 1.png) center center fixed;
 background: linear-gradient(
-    rgba(218, 34, 225, 0.6),
-    rgba(151, 51, 238, 0.7)
+  rgba(101, 9, 156, 0.57),
+  rgba(101, 9, 156, 0.57)
   ),
   url(images/NIH\ 1.png) center center fixed;
  
@@ -1008,16 +1008,16 @@ footer ul li a{
   align-items:center;
   min-height:100vh;
   width: 100%;
-  background: -webkit-linear-gradient(
-    rgba(218, 34, 225, 0.6),
-    rgba(151, 51, 238, 0.7)
+  background-image: linear-gradient(315deg,
+    rgba(101, 9, 156, 1),
+    rgba(239, 62, 94, 0.8)
   ),
-  url(images/Rectangle\ 12.png) center center fixed;
-background: linear-gradient(
-    rgba(218, 34, 225, 0.6),
-    rgba(151, 51, 238, 0.7)
+  url(images/Rectangle\ 12.png);
+background-image: linear-gradient( 315deg,
+rgba(101, 9, 156, 1),
+rgba(239, 62, 94, 0.8)
   ),
-  url(images/Rectangle\ 12.png) center center fixed;
+  url(images/Rectangle\ 12.png);
 }
 .sub-home .content{
   max-width: 50rem;
