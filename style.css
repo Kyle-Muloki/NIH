@@ -982,16 +982,16 @@ footer ul li a{
     display:flex;
     align-items:center;
     min-height:100vh;
-    background: -webkit-linear-gradient(
+    background: linear-gradient(
       rgba(101, 9, 156, 0.57),
       rgba(101, 9, 156, 0.57)
       ),
-    url(images/Pic-356\ 1.png);
+    url(images/Pic-236\ 1.png);
     background: linear-gradient( to top left,
     rgba(101, 9, 156, 0.57),
     rgba(101, 9, 156, 0.57)
     ),
-    url(images/Pic-356\ 1.png) center center fixed;
+    url(images/Pic-236\ 1.png);
     background-size: cover; /* Ensure background image covers the container */
     overflow-x: hidden;
    
