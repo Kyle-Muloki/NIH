@@ -732,7 +732,7 @@ footer ul li a{
   .count {
     height: auto; /* Adjust height to auto for dynamic content */
     padding-top: 50px; /* Reduce top padding */
-    padding-left: 10px; /* Adjust left padding */
+    padding-left: 6px; /* Adjust left padding */
     margin-left: 0; /* Remove left margin */
   }
   .odometer.plus::after{
@@ -978,21 +978,19 @@ footer ul li a{
     padding: 10px;
   }
   .home{
-    display: flex;
-    align-items: center;
-    min-height: 75vh;
-    width: 100%;
-
+    display:flex;
+    align-items:center;
+    min-height:100vh;
     background: -webkit-linear-gradient(
-      rgba(218, 34, 225, 0.6),
-      rgba(151, 51, 238, 0.7)
+      rgba(101, 9, 156, 0.57),
+      rgba(101, 9, 156, 0.57)
+      ),
+    url(images/Pic-356.JPG) center center fixed;
+    background: linear-gradient(
+    rgba(101, 9, 156, 0.57),
+    rgba(101, 9, 156, 0.57)
     ),
-    url(images/NIH\ 1.png) center center fixed;
-  background: linear-gradient(
-      rgba(218, 34, 225, 0.6),
-      rgba(151, 51, 238, 0.7)
-    ),
-    url(images/NIH\ 1.png) center center fixed;
+    url(images/Pic-356.JPG) center center fixed;
     background-size: cover; /* Ensure background image covers the container */
     overflow-x: hidden;
    
@@ -1008,14 +1006,15 @@ footer ul li a{
   align-items:center;
   min-height:100vh;
   width: 100%;
-  background-image: radial-gradient(
+  background-image: linear-gradient(
     rgba(101, 9, 156, 1),
-    rgba(239, 62, 94, 0.8)
+    rgba(239, 62, 94, 1) 
+    
   ),
   url(images/Rectangle\ 12.png);
-background-image: radial-gradient(circle at top left,
-  rgba(239, 62, 94, 0.7),
-  rgba(101, 9, 156, 0.8)60%
+  background-image: linear-gradient(to top left,
+  rgba(101, 9, 156, 0.8)45%,
+  rgba(238, 27, 66, 0.9) 
   ),
   url(images/Rectangle\ 12.png);
 }
@@ -1365,20 +1364,21 @@ background-image: radial-gradient(circle at top left,
 }
 @media(max-width: 700px) {
   .sub-home {
-    display: flex;
-    align-items: center;
-    min-height: 75vh;
+    display:flex;
+    align-items:center;
+    min-height:100vh;
     width: 100%;
-    background: -webkit-linear-gradient(
-        rgba(218, 34, 225, 0.6),
-        rgba(151, 51, 238, 0.7)
-      ),
-      url(images/Rectangle\ 12.png) center center fixed;
-    background: linear-gradient(
-        rgba(218, 34, 225, 0.6),
-        rgba(151, 51, 238, 0.7)
-      ),
-      url(images/Rectangle\ 12.png) center center fixed;
+    background-image: linear-gradient(
+      rgba(101, 9, 156, 1),
+      rgba(239, 62, 94, 1) 
+      
+    ),
+    url(images/Pic-220\ \(1\)\ 1.png);
+    background-image: linear-gradient(to top left,
+    rgba(101, 9, 156, 0.6)45%,
+    rgba(238, 27, 66, 0.8) 
+    ),
+    url(images/Pic-220\ \(1\)\ 1.png);
     background-size: cover; /* Ensure background image covers the container */
     overflow-x: hidden;
   }
@@ -1402,7 +1402,7 @@ background-image: radial-gradient(circle at top left,
     width: 70%; /* Make the image responsive to the container width */
     height: auto; /* Maintain aspect ratio */
     top: -35px; /* Remove top positioning */
-    left: 90px; /* Remove left positioning */
+    left: 140px; /* Remove left positioning */
     float: none; /* Remove floating */
     margin-bottom: 20px; /* Add margin to separate from other elements */
     margin-top: -500px;
@@ -1416,7 +1416,7 @@ background-image: radial-gradient(circle at top left,
     height: 380px; /* Maintain aspect ratio */
     float: none; /* Remove floating */
     margin-bottom: 20px; /* Add margin to separate from other elements */
-    left: 30px;
+    left: 70px;
     overflow-x: hidden;
     margin-top: 20px;
   }
@@ -1657,16 +1657,16 @@ background-image: radial-gradient(circle at top left,
   align-items:center;
   min-height:100vh;
   width: 100%;
-  background: -webkit-linear-gradient(
-    rgba(218, 34, 225, 0.6),
-    rgba(151, 51, 238, 0.7)
+  background-image: linear-gradient(
+    rgba(101, 9, 156, 1),
+    rgba(239, 62, 94, 1) 
   ),
-  url(images/Rectangle\ 14.png) center center fixed;
-background: linear-gradient(
-    rgba(218, 34, 225, 0.6),
-    rgba(151, 51, 238, 0.7)
+  url(images/Rectangle\ 14.png);
+  background-image: linear-gradient(to top left,
+  rgba(101, 9, 156, 0.8)45%,
+  rgba(238, 27, 66, 0.9) 
   ),
-  url(images/Rectangle\ 14.png) center center fixed;
+  url(images/Rectangle\ 14.png)
 }
 .events-content{
   max-width: 90rem;
@@ -1923,18 +1923,20 @@ background: linear-gradient(
 
 @media(max-width: 700px){
   .events-home {
-    display: flex;
-    flex-direction: column; /* Stack items vertically on smaller screens */
-    align-items: center;
-    min-height: 100vh; /* Adjust the minimum height to occupy the full viewport height */
-    background: -webkit-linear-gradient(
-      rgba(218, 34, 225, 0.6),
-      rgba(151, 51, 238, 0.7)
-    ), url(images/Rectangle\ 14.png) center center fixed;
-    background: linear-gradient(
-      rgba(218, 34, 225, 0.6),
-      rgba(151, 51, 238, 0.7)
-    ), url(images/Rectangle\ 14.png) center center fixed;
+    display:flex;
+    align-items:center;
+    min-height:100vh;
+    width: 100%;
+    background-image: linear-gradient(
+      rgba(101, 9, 156, 0.6),
+      rgba(239, 62, 94, 0.7) 
+    ),
+    url(images/Pic-200\ 1.png);
+    background-image: linear-gradient(to top left,
+    rgba(101, 9, 156, 0.6)45%,
+    rgba(238, 27, 66, 0.8) 
+    ),
+    url(images/Pic-200\ 1.png);
     background-size: cover; /* Ensure the background image covers the container */
   }
   .events-content {
@@ -2053,16 +2055,16 @@ background: linear-gradient(
   align-items:center;
   min-height:75vh;
   width: 100%;
-  background: -webkit-linear-gradient(
-    rgba(218, 34, 225, 0.6),
-    rgba(151, 51, 238, 0.7)
+  background-image: linear-gradient(
+    rgba(101, 9, 156, 1),
+    rgba(239, 62, 94, 1) 
   ),
-  url(images/Rectangle\ 16.png) center center fixed;
-background: linear-gradient(
-    rgba(218, 34, 225, 0.6),
-    rgba(151, 51, 238, 0.7)
+  url(images/Rectangle\ 16.png);
+background-image: linear-gradient(to top left,
+  rgba(101, 9, 156, 0.8)45%,
+  rgba(238, 27, 66, 0.9) 
   ),
-  url(images/Rectangle\ 16.png) center center fixed;
+  url(images/Rectangle\ 16.png)
 }
 .partners-content{
   max-width: 90rem;
@@ -2155,16 +2157,16 @@ background: linear-gradient(
     align-items: center;
     min-height: 75vh;
     width: 100%;
-    background: -webkit-linear-gradient(
-      rgba(218, 34, 225, 0.6),
-      rgba(151, 51, 238, 0.7)
+    background-image: linear-gradient(
+      rgba(101, 9, 156, 1),
+      rgba(239, 62, 94, 1) 
     ),
-    url(images/Rectangle\ 16.png) center center fixed;
-    background: linear-gradient(
-      rgba(218, 34, 225, 0.6),
-      rgba(151, 51, 238, 0.7)
+    url(images/Rectangle\ 16.png);
+  background-image: linear-gradient(to top left,
+    rgba(101, 9, 156, 0.8)45%,
+    rgba(238, 27, 66, 0.9) 
     ),
-    url(images/Rectangle\ 16.png) center center fixed;
+    url(images/Rectangle\ 16.png);
     flex-direction: column; /* Adjust to column layout */
     justify-content: center; /* Center content vertically */
     text-align: center; /* Center text horizontally */
@@ -2425,4 +2427,196 @@ tr td{
   }
   
 
+}
+/*-----subscribe page----*/
+.subscribe-home{
+  display:flex;
+  align-items:center;
+  min-height:75vh;
+  width: 100%;
+  background-image: radial-gradient( circle at top left,
+    rgba(101, 9, 156, 1)55%,
+    rgba(239, 62, 94, 0.8)
+  )
+
+ 
+}
+.subscribe-content{
+  width: 100%;
+  overflow-x: hidden;
+}
+.subscribe-content h3{
+
+  font-size: 54px;
+  color: rgba(254, 254, 254, 1);
+  font-family: Hind vadodara;
+  line-height: 1.5;
+  text-align: center;
+
+
+}
+
+.subscribe-content p{
+  font-size: 20px;
+  color: rgba(254, 254, 254, 1);
+  font-family: Inter;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 1rem;
+  line-height:1.5;
+}
+.sub{
+  margin-top: 50px;
+  margin-left: 30%;
+  display: flex;
+}
+
+@media(max-width:700px){
+  .subscribe-home{
+    display:flex;
+    align-items:center;
+    min-height:75vh;
+    width: 100%;
+    background-image: radial-gradient( circle at top left,
+      rgba(101, 9, 156, 1)55%,
+      rgba(239, 62, 94, 0.8)
+    );
+    flex-direction: column; /* Adjust to column layout */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center text horizontally */
+  
+   
+  }
+  .sub{
+    margin-left: 9%;
+    display: flex;
+  }
+}
+/*----PARTNERS FORM------*/
+.partner-home{
+  display:flex;
+  align-items:center;
+  min-height:75vh;
+  width: 100%;
+  background-image: radial-gradient( circle at top left,
+    rgba(101, 9, 156, 1)55%,
+    rgba(239, 62, 94, 0.8)
+  )
+
+ 
+}
+.partner-content{
+  width: 100%;
+  overflow-x: hidden;
+}
+.partner-content h3{
+
+  font-size: 54px;
+  color: rgba(254, 254, 254, 1);
+  font-family: Hind vadodara;
+  line-height: 1.5;
+  text-align: center;
+
+
+}
+
+.partner-content p{
+  font-size: 20px;
+  color: rgba(254, 254, 254, 1);
+  font-family: Inter;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 1rem;
+  line-height:1.5;
+}
+.part{
+  margin-top: 50px;
+  margin-left: 30%;
+  display: flex;
+}
+
+@media(max-width:700px){
+  .PARTNER-home{
+    display:flex;
+    align-items:center;
+    min-height:75vh;
+    width: 100%;
+    background-image: radial-gradient( circle at top left,
+      rgba(101, 9, 156, 1)55%,
+      rgba(239, 62, 94, 0.8)
+    );
+    flex-direction: column; /* Adjust to column layout */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center text horizontally */
+  
+   
+  }
+  .PART{
+    margin-left: 9%;
+    display: flex;
+  }
+}
+/*----volunteer form------*/
+.volu-home{
+  display:flex;
+  align-items:center;
+  min-height:75vh;
+  width: 100%;
+  background-image: radial-gradient( circle at top left,
+    rgba(101, 9, 156, 1)55%,
+    rgba(239, 62, 94, 0.8)
+  )
+
+ 
+}
+.volu-content{
+  width: 100%;
+  overflow-x: hidden;
+}
+.volu-content h3{
+
+  font-size: 54px;
+  color: rgba(254, 254, 254, 1);
+  font-family: Hind vadodara;
+  line-height: 1.5;
+  text-align: center;
+
+
+}
+
+.volu-content p{
+  font-size: 20px;
+  color: rgba(254, 254, 254, 1);
+  font-family: Inter;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 1rem;
+  line-height:1.5;
+}
+.vol{
+  margin-top: 50px;
+  margin-left: 30%;
+  display: flex;
+}
+
+@media(max-width:700px){
+  .volu-home{
+    display:flex;
+    align-items:center;
+    min-height:75vh;
+    width: 100%;
+    background-image: radial-gradient( circle at top left,
+      rgba(101, 9, 156, 1)55%,
+      rgba(239, 62, 94, 0.8)
+    );
+    flex-direction: column; /* Adjust to column layout */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center text horizontally */
+  
+   
+  }
+  .vol{
+    margin-left: 9%;
+    display: flex;
+  }
 }

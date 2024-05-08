@@ -27,13 +27,13 @@ const createOdometer = (el, value) => {
 // Call createOdometer for each odometer element on DOMContentLoaded
 document.addEventListener("DOMContentLoaded", function() {
   const yearFoundedOdometer = document.querySelector(".Year-Founded.odometer");
-  createOdometer(yearFoundedOdometer, 2012);
+  createOdometer(yearFoundedOdometer, 2011);
 
   const eventsOdometer = document.querySelector(".Events.odometer");
-  createOdometer(eventsOdometer, 20);
+  createOdometer(eventsOdometer, 40);
 
   const eventParticipantsToDateOdometer = document.querySelector(".Event-Participants-to-Date.odometer");
-  createOdometer(eventParticipantsToDateOdometer, 1000);
+  createOdometer(eventParticipantsToDateOdometer, 7000);
 
   const industriesRepresentedOdometer = document.querySelector(".Industries-represented.odometer");
   createOdometer(industriesRepresentedOdometer, 50);
