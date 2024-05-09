@@ -1008,13 +1008,13 @@ footer ul li a{
   min-height:100vh;
   width: 100%;
   background-image: linear-gradient(
-    rgba(101, 9, 156, 1),
+    rgba(101, 9, 156, 0.57),
     rgba(239, 62, 94, 1) 
     
   ),
   url(images/Rectangle\ 12.png);
   background-image: linear-gradient(to top left,
-  rgba(101, 9, 156, 0.8)45%,
+  rgba(101, 9, 156, 0.69)45%,
   rgba(238, 27, 66, 0.9) 
   ),
   url(images/Rectangle\ 12.png);
