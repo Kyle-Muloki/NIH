@@ -1276,6 +1276,7 @@ footer ul li a{
 }
 .gallery div img{
   width: 100%;
+
   transition: transform 0.5s;
 }
 .gallery::-webkit-scrollbar{
@@ -1549,6 +1550,7 @@ footer ul li a{
   .gallery div img {
     width: 100%; /* Set image width to 100% */
     max-width: 200px; /* Remove max-width */
+    height: 100px;
   }
   .gallery-wrap {
     display: flex;
