@@ -1014,7 +1014,7 @@ footer ul li a{
   ),
   url(images/Rectangle\ 12.png);
   background-image: linear-gradient(to top left,
-  rgba(101, 9, 156, 0.69)45%,
+  rgba(101, 9, 156, 0.67)45%,
   rgba(238, 27, 66, 0.9) 
   ),
   url(images/Rectangle\ 12.png);
@@ -1276,7 +1276,6 @@ footer ul li a{
 }
 .gallery div img{
   width: 100%;
-  filter: grayscale(100);
   transition: transform 0.5s;
 }
 .gallery::-webkit-scrollbar{
@@ -1286,7 +1285,7 @@ footer ul li a{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10% auto;
+  margin: 5% auto;
 }
 #leftbtn, #rightbtn{
   cursor: pointer;
