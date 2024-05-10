@@ -1548,9 +1548,8 @@ footer ul li a{
   }
   
   .gallery div img {
-    width: 100%; /* Set image width to 100% */
-    max-width: 200px; /* Remove max-width */
-    height: 100px;
+    width: 300px;
+    height: 200px;
   }
   .gallery-wrap {
     display: flex;
