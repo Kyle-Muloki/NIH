@@ -1009,14 +1009,12 @@ footer ul li a{
   width: 100%;
   background-image: linear-gradient(
     rgba(101, 9, 156, 0.57),
-    rgba(239, 62, 94, 1) 
-    
+    rgba(101, 9, 156, 0.57)   
   ),
   url(images/Rectangle\ 12.png);
   background-image: linear-gradient(to top left,
-  rgba(101, 9, 156, 0.67)45%,
-  rgba(238, 27, 66, 0.9) 
-  ),
+  rgba(101, 9, 156, 0.57),
+  rgba(101, 9, 156, 0.57)  ),
   url(images/Rectangle\ 12.png);
 }
 .sub-home .content{
@@ -1370,14 +1368,14 @@ footer ul li a{
     min-height:100vh;
     width: 100%;
     background-image: linear-gradient(
-      rgba(101, 9, 156, 1),
-      rgba(239, 62, 94, 1) 
+      rgba(101, 9, 156, 0.57),
+      rgba(101, 9, 156, 0.57) 
       
     ),
     url(images/Pic-220\ \(1\)\ 1.png);
     background-image: linear-gradient(to top left,
-    rgba(101, 9, 156, 0.6)45%,
-    rgba(238, 27, 66, 0.8) 
+    rgba(101, 9, 156, 0.57),
+    rgba(101, 9, 156, 0.57),
     ),
     url(images/Pic-220\ \(1\)\ 1.png);
     background-size: cover; /* Ensure background image covers the container */
@@ -1574,14 +1572,13 @@ footer ul li a{
   .subscribe2 h1{
     font-size: 32px; /* Reduce font size */
     margin-top: -40px; /* Adjust top margin */
-    margin-left: 30px; /* Remove left margin */
+    margin-left: 10px; /* Remove left margin */
   }
   .subscribe2 p{
     font-size: 16px; /* Reduce font size */
     line-height: 30px; /* Reduce line height */
     text-align: center; /* Center align the text */
     margin-top: 20px; /* Adjust top margin */
-    margin-left: 30px; /* Remove left margin */
   }
   .subscribe2 .btn5{
     display: inline-block;
@@ -1593,7 +1590,7 @@ footer ul li a{
     text-align: center; /* Center align the text */
     margin: 0 auto; /* Center the button horizontally */
     margin-top: 40px; /* Adjust top margin */
-    left: 20px;
+    left: 6px;
     position: relative;
     cursor: pointer;
     background-color:rgba(101, 9, 156, 1);
@@ -1658,13 +1655,13 @@ footer ul li a{
   min-height:100vh;
   width: 100%;
   background-image: linear-gradient(
-    rgba(101, 9, 156, 1),
-    rgba(239, 62, 94, 1) 
+    rgba(101, 9, 156, 0.57),
+    rgba(101, 9, 156, 0.57) 
   ),
   url(images/Rectangle\ 14.png);
   background-image: linear-gradient(to top left,
-  rgba(101, 9, 156, 0.8)45%,
-  rgba(238, 27, 66, 0.9) 
+  rgba(101, 9, 156, 0.57),
+  rgba(101, 9, 156, 0.57)
   ),
   url(images/Rectangle\ 14.png)
 }
@@ -1928,13 +1925,13 @@ footer ul li a{
     min-height:100vh;
     width: 100%;
     background-image: linear-gradient(
-      rgba(101, 9, 156, 0.6),
-      rgba(239, 62, 94, 0.7) 
+      rgba(101, 9, 156, 0.57),
+      rgba(101, 9, 156, 0.57)
     ),
     url(images/Pic-200\ 1.png);
     background-image: linear-gradient(to top left,
-    rgba(101, 9, 156, 0.6)45%,
-    rgba(238, 27, 66, 0.8) 
+    rgba(101, 9, 156, 0.57),
+    rgba(101, 9, 156, 0.57)
     ),
     url(images/Pic-200\ 1.png);
     background-size: cover; /* Ensure the background image covers the container */
@@ -2056,13 +2053,13 @@ footer ul li a{
   min-height:75vh;
   width: 100%;
   background-image: linear-gradient(
-    rgba(101, 9, 156, 1),
-    rgba(239, 62, 94, 1) 
+    rgba(101, 9, 156, 0.57),
+    rgba(101, 9, 156, 0.57) 
   ),
   url(images/Rectangle\ 16.png);
 background-image: linear-gradient(to top left,
-  rgba(101, 9, 156, 0.8)45%,
-  rgba(238, 27, 66, 0.9) 
+rgba(101, 9, 156, 0.57),
+rgba(101, 9, 156, 0.57)
   ),
   url(images/Rectangle\ 16.png)
 }
@@ -2158,13 +2155,13 @@ background-image: linear-gradient(to top left,
     min-height: 75vh;
     width: 100%;
     background-image: linear-gradient(
-      rgba(101, 9, 156, 1),
-      rgba(239, 62, 94, 1) 
+      rgba(101, 9, 156, 0.57),
+      rgba(101, 9, 156, 0.57)
     ),
     url(images/Rectangle\ 16.png);
   background-image: linear-gradient(to top left,
-    rgba(101, 9, 156, 0.8)45%,
-    rgba(238, 27, 66, 0.9) 
+    rgba(101, 9, 156, 0.57),
+    rgba(101, 9, 156, 0.57) 
     ),
     url(images/Rectangle\ 16.png);
     flex-direction: column; /* Adjust to column layout */
