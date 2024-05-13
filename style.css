@@ -738,7 +738,7 @@ footer ul li a{
   .odometer.plus::after{
     content:"+";
     position: absolute;
-    top:6px;
+    top:2px;
     right: -24px;
     font-size: 40px;
   }
