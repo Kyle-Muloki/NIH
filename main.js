@@ -1,43 +1,35 @@
-// Function to create Odometer instance
-const createOdometer = (el, value) => {
-  const odometer = new Odometer({
-    el: el,
-    value: 0,
-    duration: 2000, // Duration of the animation in milliseconds
-    format: '', // Empty string format for plain numbers
-  });
-
-  const options = {
-    threshold: [0, 0.9],
-  };
-
-  const callback = (entries, observer) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        odometer.update(value);
-        observer.unobserve(el); // Stop observing once the element is in view
-      }
-    });
-  };
-
-  const observer = new IntersectionObserver(callback, options);
-  observer.observe(el);
-};
-
-// Call createOdometer for each odometer element on DOMContentLoaded
-document.addEventListener("DOMContentLoaded", function() {
-  const yearFoundedOdometer = document.querySelector(".Year-Founded.odometer");
-  createOdometer(yearFoundedOdometer, 2011);
-
-  const eventsOdometer = document.querySelector(".Events.odometer");
-  createOdometer(eventsOdometer, 40);
-
-  const eventParticipantsToDateOdometer = document.querySelector(".Event-Participants-to-Date.odometer");
-  createOdometer(eventParticipantsToDateOdometer, 7000);
-
-  const industriesRepresentedOdometer = document.querySelector(".Industries-represented.odometer");
-  createOdometer(industriesRepresentedOdometer, 50);
+// Initialize odometers
+const yearFoundedOdometer = new Odometer({
+  el: document.querySelector('.Year-Founded'),
+  value: 0,
+  format: '',
 });
+
+const eventsOdometer = new Odometer({
+  el: document.querySelector('.Events'),
+  value: 0,
+  format: '',
+});
+
+const eventParticipantsToDateOdometer = new Odometer({
+  el: document.querySelector('.Event-Participants-to-Date'),
+  value: 0,
+  format: '(,ddd)',
+});
+
+const industriesRepresentedOdometer = new Odometer({
+  el: document.querySelector('.Industries-represented'),
+  value: 0,
+  format: '',
+});
+
+// Start counting animation
+yearFoundedOdometer.update(2011);
+eventsOdometer.update(40);
+eventParticipantsToDateOdometer.update("7,000");
+industriesRepresentedOdometer.update(50);
+
+
 
 const slider = document.querySelector('.slider');
 const slides = document.querySelector('.slides');

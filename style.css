@@ -732,9 +732,8 @@ footer ul li a{
   }
   .count {
     height: auto; /* Adjust height to auto for dynamic content */
-    padding-top: 50px; /* Reduce top padding */
-    padding-left: 6px; /* Adjust left padding */
-    margin-left: 0; /* Remove left margin */
+    padding-top: 30px; /* Reduce top padding */
+    margin-left: -30px; /* Remove left margin */
   }
   .odometer.plus::after{
     content:"+";
