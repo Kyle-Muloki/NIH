@@ -2492,7 +2492,7 @@ tr td{
 .partner-home{
   display:flex;
   align-items:center;
-  min-height:75vh;
+  min-height:50vh;
   width: 100%;
   background-image: radial-gradient( circle at top left,
     rgba(101, 9, 156, 1)55%,
@@ -2614,5 +2614,351 @@ tr td{
   .vol{
     margin-left: 2%;
     display: flex;
+  }
+}
+.more_events{
+  display:flex;
+  align-items:center;
+  min-height:95vh;
+  width: 100%;
+  background-image: linear-gradient(
+    rgba(101, 9, 156, 0.57),
+    rgba(101, 9, 156, 0.57) 
+  ),
+  url(images/Pic-158\ 1.png);
+background-image: linear-gradient(to top left,
+rgba(101, 9, 156, 0.57),
+rgba(101, 9, 156, 0.57)
+  ),
+  url(images/Pic-158\ 1.png)
+}
+.more h1{
+  font-family: Hind Vadodara;
+  margin-left: 500px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  color: rgba(45, 44, 60, 1);
+}
+.underline12{
+  width: 100px;
+  height: 5px;
+  margin-left: 580px;
+  background-color: rgba(239, 62, 94, 1);
+  position: absolute;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+.underline12 span{
+  position: absolute;
+
+}
+.more_info{
+  margin-left: 60px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.more_info h2{
+  color: rgba(45, 44, 60, 1);
+  margin-left: 60px;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+.more_info i{
+  padding-right: 10px;
+  margin-left: 60px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.calendarLink {
+  margin-left: 80px;
+  margin-bottom: 90px;
+}
+
+/* Styling for the calendar link */
+.calendarLink a {
+  color: #6200ea; /* Deep purple text */
+  font-size: 16px; /* Font size */
+  font-weight: 600; /* Bold text */
+  text-decoration: none; /* Underline */
+  transition: color 0.5s ease; /* Smooth transition for color */
+}
+
+/* Hover effect for the calendar link */
+.calendarLink a:hover {
+  color: #3700b3; /* Darker purple on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+.more_description{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 55%;
+
+}
+.more_description h1{
+  margin-left: 60px;
+  color: rgba(45, 44, 60, 1);
+  margin-bottom: 40px;
+  margin-top: 30px;
+
+}
+.circle{
+  background-color: rgba(239, 62, 94, 1);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: -90px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.more_description p{
+  color: rgba(90, 90, 90, 1);
+  margin-left: 60px;
+  width: 90%;
+  margin-bottom: 100px;
+}
+.more_description h3{
+  color: rgba(90, 90, 90, 1);
+  margin-left: 60px;
+  margin-bottom: 30px;
+
+}
+.more_description ul{
+  margin-left: 60px;
+  color: rgba(90, 90, 90, 1);
+  margin-bottom: 50px;
+}
+.more_description ul li{
+  margin-bottom: 10px;
+}
+.ticket{
+  margin-left: 900px;
+  margin-top: -119%;
+  margin-bottom: 80%;
+}
+.ticket h1{
+  color: rgba(45, 44, 60, 1);
+  font-size: 32px;
+  margin-left: -30px;
+
+}
+.buy{
+  display:inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid;
+  padding: 12px 18px;
+  border-radius: 12px 12px 12px 12px;
+  text-align: justify;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 90px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: rgba(101, 9, 156, 1);
+}
+.buy:hover{
+  border: 1px solid rgb(175, 91, 248);
+  background: rgb(175, 91, 248);
+  transition: 0.5s;
+}
+.ticket i{
+  margin-left: -50px;
+  font-size: 30px;
+}
+
+.circle1{
+  background-color: rgba(239, 62, 94, 1);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+.circle2{
+  background-image: url(images/WhatsApp\ Image\ 2024-06-04\ at\ 16.01\ 1.png);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-left: 100px;
+
+}
+.speakers{
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+.speakers h1{
+  color:rgba(45, 44, 60, 1);
+  margin-left: 20px;
+}
+.speaker_name{
+  margin-top: 40px;
+  margin-left: 180px;
+  margin-bottom: 30px;
+  color: rgba(90, 90, 90, 1);
+}
+.speakers p{
+  margin-left: 600px;
+  margin-top: -400px;
+  width: 30%;
+  color: rgba(90, 90, 90, 1);
+  
+}
+.pay ul{
+  color: rgba(90, 90, 90, 1);
+  text-decoration: none;
+  font-size: 20px;
+}
+.pay ul li{
+  color: rgba(90, 90, 90, 1);
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 35px;
+}
+@media (max-width: 700px) {
+  .more_events {
+    display: flex;
+    align-items: center;
+    min-height: 75vh;
+    width: 100%;
+    background-image: linear-gradient(
+      rgba(101, 9, 156, 0.57),
+      rgba(101, 9, 156, 0.57)
+    ),
+    url(images/Pic-410\ 1.png);
+  background-image: linear-gradient(to top left,
+    rgba(101, 9, 156, 0.57),
+    rgba(101, 9, 156, 0.57) 
+    ),
+    url(images/Pic-410\ 1.png);
+    flex-direction: column; /* Adjust to column layout */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center text horizontally */
+  }
+  .more h1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .underline12 {
+    margin-left: 20px;
+    width: 80px;
+  }
+
+  .more_info {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .more_info h2 {
+    margin-left: 0;
+    font-size: 24px;
+  }
+
+  .more_info i {
+    margin-left: 0;
+    font-size: 18px;
+  }
+
+  .calendarLink {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .more_description {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .more_description h1 {
+    margin-left: 30px;
+    font-size: 24px;
+  }
+
+  .circle {
+    margin-top: -80px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .more_description p {
+    margin-left: px;
+    width: 100%;
+  }
+
+  .more_description h3 {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  .more_description ul {
+    margin-left: 25px;
+  }
+
+  .ticket {
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: -60px;
+  }
+
+  .ticket h1 {
+    margin-left: 0;
+    font-size: 24px;
+  }
+
+  .buy {
+    margin-left: 0;
+    font-size: 16px;
+    padding: 10px 16px;
+  }
+
+  .ticket i {
+    margin-left: 0;
+    font-size: 24px;
+  }
+
+  .circle1 {
+    margin-left: 0;
+    width: 50px;
+    height: 50px;
+    margin-top: -42px;
+  }
+
+  .circle2 {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .speakers {
+    margin-left: 20px;
+  }
+
+  .speakers h1 {
+    margin-left: 20px;
+    font-size: 24px;
+  }
+
+  .speaker_name {
+    margin-left: 20px;
+  }
+
+  .speakers p {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 90%;
+  }
+  .ticket img{
+    margin-left: -30px;
+  }
+  .underline12{
+    margin-left: 100px;
+    margin-bottom: 20px;
   }
 }
